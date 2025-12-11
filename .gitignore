@@ -15,4 +15,4 @@ data/sample/*.json
 logs/*.log
 
 # 配置
-config_local.yaml
+config.yaml
