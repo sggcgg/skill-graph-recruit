@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# 数据文件（数据量大，不提交到Git）
+data/raw/*.json
+data/raw/*.csv
+data/processed/*.json
+data/sample/*.json
+
+# 日志文件
+logs/*.log
+logs/*.txt
+
+# 配置文件（包含敏感信息）
+.env
+config_local.yaml
+*.local.yaml
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*~
+
+# 数据库备份
+*.dump
+*.backup
