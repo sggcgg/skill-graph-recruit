@@ -15,23 +15,49 @@ dist/
 
 # IDE
 .idea/
+.vscode/
 *.swp
 *.swo
 
-# 数据文件（数据量大，不提交到Git）
-data/raw/*.json
-data/raw/*.csv
-data/processed/*.json
-data/sample/*.json
-
-# 日志文件
-logs/*.log
-logs/*.txt
-
-# 配置文件（包含敏感信息）
-.env
+# ===== 敏感配置文件（含密码/API Key，绝对不提交）=====
+config.yaml
 config_local.yaml
 *.local.yaml
+.env
+.env.*
+
+# ===== 数据文件（体积过大，不提交到Git）=====
+# 原始爬取数据
+data/raw/
+# 清洗后数据
+data/cleaned/
+# LLM增强数据
+data/enhanced/
+# 向量数据库（二进制，体积500MB+）
+data/vector_db/
+# Cookie文件（含登录凭证，敏感）
+data/boss_cookies.json
+# 爬虫进度文件
+data/crawler_progress.json
+
+# ===== 模型文件（体积大，从HuggingFace下载）=====
+scripts/models/
+models/distillation/classifier.pkl
+
+# ===== 系统/临时文件 =====
+cuda-keyring_1.1-1_all.deb
+*.deb
+*.bak
+*.tmp
+*.swp
+*~
+*.dump
+*.backup
+
+# 日志文件
+logs/
+src/crawler/logs/
+*.log
 
 # Jupyter
 .ipynb_checkpoints/
@@ -47,12 +73,44 @@ htmlcov/
 Thumbs.db
 desktop.ini
 
-# 临时文件
-*.tmp
-*.bak
-*.swp
-*~
+# Python缓存
+src/**/__pycache__/
 
-# 数据库备份
-*.dump
-*.backup
+# ===== 个人隐私文档（含手机号/邮箱/职业规划，绝对不能公开）=====
+docs/佘国祥简历_优化版.md
+docs/AI应用方向转型规划.md
+docs/导师建议评估与最终方案.md
+docs/思路.txt
+docs/豆包图片生成-UI设计提示词.md
+docs/文档更新说明_2026-02-10.md
+docs/最终技术方案_2026-02-10.md
+docs/完整实施步骤-Qwen3版.md
+docs/前后端联调指南.md
+
+# ===== 调试/修复脚本（不专业，排除）=====
+scripts/fix_*.py
+scripts/fix_*.sh
+scripts/check_*.py
+scripts/test_*.py
+scripts/find_windows_ip.py
+scripts/update_neo4j_uri.py
+
+# ===== 根目录散装文档（内部记录，无展示价值）=====
+CLEANUP_SUMMARY.md
+CODE_FIXES_SUMMARY.md
+PROJECT_FILES.md
+PROJECT_SUMMARY.md
+PYCHARM_WSL_GUIDE.md
+README_USAGE.md
+UPGRADE_TO_QWEN3.md
+WSL_SETUP_UPDATE_SUMMARY.md
+导师汇报要点_2026-02-10.md
+路径问题解决方案.md
+完整操作流程.md
+测试模式快速指南.md
+
+# ===== 其他杂项 =====
+清理缓存并运行.bat
+start_wsl.ps1
+scripts/start_wsl.ps1
+scripts/setup_wsl_env.sh

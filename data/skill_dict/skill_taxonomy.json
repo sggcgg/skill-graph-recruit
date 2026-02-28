@@ -1,0 +1,2952 @@
+{
+  "技能分类体系": {
+    "1_编程语言": [
+      {
+        "name": "Python",
+        "aliases": ["python", "py", "Python3", "python3", "Python2"],
+        "level": "核心",
+        "hot_score": 95,
+        "description": "通用编程语言，数据科学首选"
+      },
+      {
+        "name": "Java",
+        "aliases": ["java", "JAVA", "Java SE", "Java EE"],
+        "level": "核心",
+        "hot_score": 90,
+        "description": "企业级开发语言"
+      },
+      {
+        "name": "JavaScript",
+        "aliases": ["javascript", "js", "JS", "ECMAScript", "ES6", "ES2015"],
+        "level": "核心",
+        "hot_score": 88,
+        "description": "前端开发必备语言"
+      },
+      {
+        "name": "Go",
+        "aliases": ["golang", "go", "Golang", "GO"],
+        "level": "核心",
+        "hot_score": 75,
+        "description": "高并发云原生语言"
+      },
+      {
+        "name": "C++",
+        "aliases": ["c++", "cpp", "C加加", "CPP", "C Plus Plus"],
+        "level": "核心",
+        "hot_score": 70,
+        "description": "系统级高性能编程"
+      },
+      {
+        "name": "C",
+        "aliases": ["c语言", "C语言", "c"],
+        "level": "基础",
+        "hot_score": 60,
+        "description": "底层系统编程"
+      },
+      {
+        "name": "C#",
+        "aliases": ["c#", "csharp", "C Sharp"],
+        "level": "常用",
+        "hot_score": 65,
+        "description": ".NET开发语言"
+      },
+      {
+        "name": "PHP",
+        "aliases": ["php", "PHP"],
+        "level": "常用",
+        "hot_score": 60,
+        "description": "Web服务端开发"
+      },
+      {
+        "name": "TypeScript",
+        "aliases": ["typescript", "ts", "TS"],
+        "level": "常用",
+        "hot_score": 80,
+        "description": "类型安全的JavaScript超集"
+      },
+      {
+        "name": "Rust",
+        "aliases": ["rust", "Rust"],
+        "level": "进阶",
+        "hot_score": 45,
+        "description": "内存安全的系统语言"
+      },
+      {
+        "name": "Scala",
+        "aliases": ["scala", "Scala"],
+        "level": "进阶",
+        "hot_score": 35,
+        "description": "函数式编程语言"
+      },
+      {
+        "name": "Kotlin",
+        "aliases": ["kotlin", "Kotlin"],
+        "level": "常用",
+        "hot_score": 50,
+        "description": "Android官方开发语言"
+      },
+      {
+        "name": "Swift",
+        "aliases": ["swift", "Swift"],
+        "level": "常用",
+        "hot_score": 48,
+        "description": "iOS/macOS开发语言"
+      },
+      {
+        "name": "Objective-C",
+        "aliases": ["objective-c", "objc", "oc"],
+        "level": "常用",
+        "hot_score": 30,
+        "description": "iOS开发传统语言"
+      },
+      {
+        "name": "R",
+        "aliases": ["r语言", "R语言", "r"],
+        "level": "专业",
+        "hot_score": 40,
+        "description": "统计分析和数据可视化"
+      },
+      {
+        "name": "Shell",
+        "aliases": ["shell", "bash", "sh", "Shell脚本", "shell脚本"],
+        "level": "常用",
+        "hot_score": 70,
+        "description": "Linux系统脚本编程"
+      },
+      {
+        "name": "Perl",
+        "aliases": ["perl", "Perl"],
+        "level": "常用",
+        "hot_score": 20,
+        "description": "文本处理和系统管理"
+      },
+      {
+        "name": "Lua",
+        "aliases": ["lua", "Lua"],
+        "level": "常用",
+        "hot_score": 25,
+        "description": "轻量级脚本语言"
+      },
+      {
+        "name": "Dart",
+        "aliases": ["dart", "Dart"],
+        "level": "常用",
+        "hot_score": 55,
+        "description": "Flutter开发语言"
+      },
+      {
+        "name": "Ruby",
+        "aliases": ["ruby", "Ruby"],
+        "level": "常用",
+        "hot_score": 38,
+        "description": "优雅的动态语言"
+      },
+      {
+        "name": "Elixir",
+        "aliases": ["elixir", "Elixir"],
+        "level": "进阶",
+        "hot_score": 28,
+        "description": "函数式并发语言"
+      }
+    ],
+    "2_后端框架": [
+      {
+        "name": "Django",
+        "aliases": ["django", "Django", "django框架"],
+        "level": "核心",
+        "hot_score": 80,
+        "parent": "Python",
+        "description": "Python全栈Web框架"
+      },
+      {
+        "name": "Flask",
+        "aliases": ["flask", "Flask"],
+        "level": "核心",
+        "hot_score": 75,
+        "parent": "Python",
+        "description": "Python轻量级Web框架"
+      },
+      {
+        "name": "FastAPI",
+        "aliases": ["fastapi", "FastAPI", "fast api"],
+        "level": "常用",
+        "hot_score": 70,
+        "parent": "Python",
+        "description": "高性能异步API框架"
+      },
+      {
+        "name": "Tornado",
+        "aliases": ["tornado", "Tornado"],
+        "level": "常用",
+        "hot_score": 45,
+        "parent": "Python",
+        "description": "异步网络框架"
+      },
+      {
+        "name": "Pyramid",
+        "aliases": ["pyramid", "Pyramid"],
+        "level": "常用",
+        "hot_score": 30,
+        "parent": "Python",
+        "description": "灵活的Python Web框架"
+      },
+      {
+        "name": "Spring",
+        "aliases": ["spring", "Spring", "spring框架", "Spring Framework"],
+        "level": "核心",
+        "hot_score": 90,
+        "parent": "Java",
+        "description": "Java企业级开发框架"
+      },
+      {
+        "name": "Spring Boot",
+        "aliases": ["springboot", "spring boot", "SpringBoot", "Spring Boot"],
+        "level": "核心",
+        "hot_score": 92,
+        "parent": "Java",
+        "description": "简化Spring开发的框架"
+      },
+      {
+        "name": "Spring Cloud",
+        "aliases": ["springcloud", "spring cloud", "SpringCloud", "Spring Cloud"],
+        "level": "进阶",
+        "hot_score": 85,
+        "parent": "Java",
+        "description": "微服务开发框架"
+      },
+      {
+        "name": "Spring MVC",
+        "aliases": ["spring mvc", "SpringMVC"],
+        "level": "核心",
+        "hot_score": 80,
+        "parent": "Java",
+        "description": "Spring Web MVC框架"
+      },
+      {
+        "name": "MyBatis",
+        "aliases": ["mybatis", "MyBatis", "mybatis-plus", "MyBatis-Plus"],
+        "level": "常用",
+        "hot_score": 85,
+        "parent": "Java",
+        "description": "Java持久层框架"
+      },
+      {
+        "name": "Hibernate",
+        "aliases": ["hibernate", "Hibernate"],
+        "level": "常用",
+        "hot_score": 60,
+        "parent": "Java",
+        "description": "Java ORM框架"
+      },
+      {
+        "name": "Express",
+        "aliases": ["express", "express.js", "Express.js", "expressjs"],
+        "level": "常用",
+        "hot_score": 70,
+        "parent": "JavaScript",
+        "description": "Node.js Web框架"
+      },
+      {
+        "name": "Nest.js",
+        "aliases": ["nestjs", "nest", "Nest.js", "NestJS"],
+        "level": "常用",
+        "hot_score": 60,
+        "parent": "JavaScript",
+        "description": "企业级Node.js框架"
+      },
+      {
+        "name": "Koa",
+        "aliases": ["koa", "Koa", "koa.js"],
+        "level": "常用",
+        "hot_score": 55,
+        "parent": "JavaScript",
+        "description": "下一代Node.js框架"
+      },
+      {
+        "name": "Gin",
+        "aliases": ["gin", "Gin", "gin框架"],
+        "level": "常用",
+        "hot_score": 70,
+        "parent": "Go",
+        "description": "高性能Go Web框架"
+      },
+      {
+        "name": "Beego",
+        "aliases": ["beego", "Beego"],
+        "level": "常用",
+        "hot_score": 50,
+        "parent": "Go",
+        "description": "Go全功能框架"
+      },
+      {
+        "name": "Echo",
+        "aliases": ["echo", "Echo"],
+        "level": "常用",
+        "hot_score": 45,
+        "parent": "Go",
+        "description": "高性能Go框架"
+      },
+      {
+        "name": "Laravel",
+        "aliases": ["laravel", "Laravel"],
+        "level": "常用",
+        "hot_score": 65,
+        "parent": "PHP",
+        "description": "优雅的PHP框架"
+      },
+      {
+        "name": "Symfony",
+        "aliases": ["symfony", "Symfony"],
+        "level": "常用",
+        "hot_score": 40,
+        "parent": "PHP",
+        "description": "PHP企业级框架"
+      },
+      {
+        "name": "ThinkPHP",
+        "aliases": ["thinkphp", "ThinkPHP", "TP"],
+        "level": "常用",
+        "hot_score": 45,
+        "parent": "PHP",
+        "description": "国产PHP框架"
+      },
+      {
+        "name": "ASP.NET",
+        "aliases": ["asp.net", "ASP.NET", "aspnet"],
+        "level": "常用",
+        "hot_score": 55,
+        "parent": "C#",
+        "description": ".NET Web框架"
+      },
+      {
+        "name": "ASP.NET Core",
+        "aliases": ["asp.net core", "ASP.NET Core", "dotnet core"],
+        "level": "常用",
+        "hot_score": 65,
+        "parent": "C#",
+        "description": "跨平台.NET框架"
+      },
+      {
+        "name": "Ruby on Rails",
+        "aliases": ["rails", "Ruby on Rails", "ror"],
+        "level": "常用",
+        "hot_score": 35,
+        "parent": "Ruby",
+        "description": "Ruby Web框架"
+      },
+      {
+        "name": "Dubbo",
+        "aliases": ["dubbo", "Dubbo", "Apache Dubbo"],
+        "level": "常用",
+        "hot_score": 68,
+        "parent": "Java",
+        "description": "阿里开源RPC框架"
+      },
+      {
+        "name": "Netty",
+        "aliases": ["netty", "Netty"],
+        "level": "进阶",
+        "hot_score": 65,
+        "parent": "Java",
+        "description": "高性能网络框架"
+      },
+      {
+        "name": "Quarkus",
+        "aliases": ["quarkus", "Quarkus"],
+        "level": "进阶",
+        "hot_score": 45,
+        "parent": "Java",
+        "description": "云原生Java框架"
+      },
+      {
+        "name": "Micronaut",
+        "aliases": ["micronaut", "Micronaut"],
+        "level": "进阶",
+        "hot_score": 38,
+        "parent": "Java",
+        "description": "现代化微服务框架"
+      },
+      {
+        "name": "Vert.x",
+        "aliases": ["vertx", "vert.x", "Vert.x"],
+        "level": "进阶",
+        "hot_score": 35,
+        "parent": "Java",
+        "description": "响应式应用框架"
+      }
+    ],
+    "3_前端技术": [
+      {
+        "name": "Vue",
+        "aliases": ["vue", "vue.js", "vuejs", "Vue.js", "Vue3", "Vue2"],
+        "level": "核心",
+        "hot_score": 90,
+        "description": "渐进式前端框架"
+      },
+      {
+        "name": "React",
+        "aliases": ["react", "react.js", "reactjs", "React.js", "React Native"],
+        "level": "核心",
+        "hot_score": 92,
+        "description": "Facebook前端框架"
+      },
+      {
+        "name": "Angular",
+        "aliases": ["angular", "angularjs", "Angular", "AngularJS"],
+        "level": "常用",
+        "hot_score": 60,
+        "description": "Google前端框架"
+      },
+      {
+        "name": "jQuery",
+        "aliases": ["jquery", "jQuery"],
+        "level": "基础",
+        "hot_score": 50,
+        "description": "经典JavaScript库"
+      },
+      {
+        "name": "Webpack",
+        "aliases": ["webpack", "Webpack"],
+        "level": "常用",
+        "hot_score": 75,
+        "description": "模块打包工具"
+      },
+      {
+        "name": "Vite",
+        "aliases": ["vite", "Vite"],
+        "level": "常用",
+        "hot_score": 70,
+        "description": "新一代前端构建工具"
+      },
+      {
+        "name": "Rollup",
+        "aliases": ["rollup", "Rollup"],
+        "level": "常用",
+        "hot_score": 45,
+        "description": "JavaScript模块打包器"
+      },
+      {
+        "name": "Gulp",
+        "aliases": ["gulp", "Gulp"],
+        "level": "常用",
+        "hot_score": 40,
+        "description": "前端自动化工具"
+      },
+      {
+        "name": "Grunt",
+        "aliases": ["grunt", "Grunt"],
+        "level": "常用",
+        "hot_score": 25,
+        "description": "JavaScript任务运行器"
+      },
+      {
+        "name": "Element UI",
+        "aliases": ["element", "element-ui", "element ui", "ElementUI", "Element Plus"],
+        "level": "常用",
+        "hot_score": 80,
+        "description": "Vue组件库"
+      },
+      {
+        "name": "Ant Design",
+        "aliases": ["antd", "ant design", "AntD", "Ant Design"],
+        "level": "常用",
+        "hot_score": 85,
+        "description": "React UI组件库"
+      },
+      {
+        "name": "Ant Design Vue",
+        "aliases": ["ant-design-vue", "antdv"],
+        "level": "常用",
+        "hot_score": 65,
+        "description": "Ant Design的Vue版本"
+      },
+      {
+        "name": "Bootstrap",
+        "aliases": ["bootstrap", "Bootstrap"],
+        "level": "基础",
+        "hot_score": 60,
+        "description": "响应式CSS框架"
+      },
+      {
+        "name": "Tailwind CSS",
+        "aliases": ["tailwind", "tailwindcss", "Tailwind", "TailwindCSS"],
+        "level": "常用",
+        "hot_score": 75,
+        "description": "实用优先的CSS框架"
+      },
+      {
+        "name": "Material UI",
+        "aliases": ["material-ui", "mui", "Material UI"],
+        "level": "常用",
+        "hot_score": 70,
+        "description": "React Material Design组件库"
+      },
+      {
+        "name": "uni-app",
+        "aliases": ["uniapp", "uni-app", "Uni-app"],
+        "level": "常用",
+        "hot_score": 60,
+        "description": "跨平台开发框架"
+      },
+      {
+        "name": "Taro",
+        "aliases": ["taro", "Taro", "taro.js"],
+        "level": "常用",
+        "hot_score": 55,
+        "description": "多端统一开发框架"
+      },
+      {
+        "name": "微信小程序",
+        "aliases": ["小程序", "wechat", "微信", "微信小程序开发", "小程序开发"],
+        "level": "常用",
+        "hot_score": 70,
+        "description": "微信小程序开发"
+      },
+      {
+        "name": "支付宝小程序",
+        "aliases": ["支付宝小程序", "alipay"],
+        "level": "常用",
+        "hot_score": 35,
+        "description": "支付宝小程序开发"
+      },
+      {
+        "name": "HTML",
+        "aliases": ["html", "html5", "HTML5", "HTML"],
+        "level": "基础",
+        "hot_score": 95,
+        "description": "网页标记语言"
+      },
+      {
+        "name": "CSS",
+        "aliases": ["css", "css3", "CSS3", "CSS"],
+        "level": "基础",
+        "hot_score": 95,
+        "description": "网页样式语言"
+      },
+      {
+        "name": "Sass",
+        "aliases": ["sass", "scss", "Sass", "SCSS"],
+        "level": "常用",
+        "hot_score": 65,
+        "description": "CSS预处理器"
+      },
+      {
+        "name": "Less",
+        "aliases": ["less", "Less"],
+        "level": "常用",
+        "hot_score": 55,
+        "description": "CSS预处理器"
+      },
+      {
+        "name": "Stylus",
+        "aliases": ["stylus", "Stylus"],
+        "level": "常用",
+        "hot_score": 30,
+        "description": "CSS预处理器"
+      },
+      {
+        "name": "Next.js",
+        "aliases": ["nextjs", "next.js", "Next.js", "Next"],
+        "level": "常用",
+        "hot_score": 80,
+        "description": "React服务端渲染框架"
+      },
+      {
+        "name": "Nuxt.js",
+        "aliases": ["nuxtjs", "nuxt.js", "Nuxt.js", "Nuxt"],
+        "level": "常用",
+        "hot_score": 65,
+        "description": "Vue服务端渲染框架"
+      },
+      {
+        "name": "Electron",
+        "aliases": ["electron", "Electron"],
+        "level": "常用",
+        "hot_score": 50,
+        "description": "跨平台桌面应用开发"
+      },
+      {
+        "name": "Svelte",
+        "aliases": ["svelte", "Svelte"],
+        "level": "常用",
+        "hot_score": 58,
+        "description": "编译型前端框架"
+      },
+      {
+        "name": "Solid.js",
+        "aliases": ["solidjs", "solid", "Solid.js"],
+        "level": "进阶",
+        "hot_score": 42,
+        "description": "高性能响应式框架"
+      },
+      {
+        "name": "Remix",
+        "aliases": ["remix", "Remix"],
+        "level": "常用",
+        "hot_score": 48,
+        "description": "全栈Web框架"
+      },
+      {
+        "name": "Astro",
+        "aliases": ["astro", "Astro"],
+        "level": "常用",
+        "hot_score": 46,
+        "description": "内容驱动的网站框架"
+      },
+      {
+        "name": "Qwik",
+        "aliases": ["qwik", "Qwik"],
+        "level": "进阶",
+        "hot_score": 35,
+        "description": "可恢复性前端框架"
+      },
+      {
+        "name": "Alpine.js",
+        "aliases": ["alpine", "alpine.js", "Alpine.js"],
+        "level": "常用",
+        "hot_score": 42,
+        "description": "轻量级交互框架"
+      },
+      {
+        "name": "Turbo",
+        "aliases": ["turbo", "Turbo", "Hotwire"],
+        "level": "常用",
+        "hot_score": 38,
+        "description": "现代Web加速框架"
+      },
+      {
+        "name": "htmx",
+        "aliases": ["htmx", "HTMX"],
+        "level": "常用",
+        "hot_score": 40,
+        "description": "HTML驱动的交互框架"
+      },
+      {
+        "name": "Pinia",
+        "aliases": ["pinia", "Pinia"],
+        "level": "常用",
+        "hot_score": 72,
+        "description": "Vue3状态管理库"
+      },
+      {
+        "name": "Vuex",
+        "aliases": ["vuex", "Vuex"],
+        "level": "常用",
+        "hot_score": 68,
+        "description": "Vue状态管理库"
+      },
+      {
+        "name": "Redux",
+        "aliases": ["redux", "Redux"],
+        "level": "常用",
+        "hot_score": 75,
+        "description": "JavaScript状态管理库"
+      },
+      {
+        "name": "MobX",
+        "aliases": ["mobx", "MobX"],
+        "level": "常用",
+        "hot_score": 52,
+        "description": "响应式状态管理"
+      },
+      {
+        "name": "Zustand",
+        "aliases": ["zustand", "Zustand"],
+        "level": "常用",
+        "hot_score": 58,
+        "description": "轻量级状态管理"
+      },
+      {
+        "name": "Recoil",
+        "aliases": ["recoil", "Recoil"],
+        "level": "常用",
+        "hot_score": 48,
+        "description": "React状态管理库"
+      },
+      {
+        "name": "Three.js",
+        "aliases": ["threejs", "three.js", "Three.js"],
+        "level": "专业",
+        "hot_score": 62,
+        "description": "3D图形库"
+      },
+      {
+        "name": "D3.js",
+        "aliases": ["d3", "d3.js", "D3.js"],
+        "level": "常用",
+        "hot_score": 68,
+        "description": "数据可视化库"
+      },
+      {
+        "name": "ECharts",
+        "aliases": ["echarts", "ECharts"],
+        "level": "常用",
+        "hot_score": 78,
+        "description": "百度可视化图表库"
+      },
+      {
+        "name": "Chart.js",
+        "aliases": ["chartjs", "chart.js", "Chart.js"],
+        "level": "常用",
+        "hot_score": 65,
+        "description": "简单图表库"
+      },
+      {
+        "name": "PostCSS",
+        "aliases": ["postcss", "PostCSS"],
+        "level": "常用",
+        "hot_score": 58,
+        "description": "CSS转换工具"
+      },
+      {
+        "name": "Babel",
+        "aliases": ["babel", "Babel"],
+        "level": "常用",
+        "hot_score": 72,
+        "description": "JavaScript编译器"
+      },
+      {
+        "name": "ESLint",
+        "aliases": ["eslint", "ESLint"],
+        "level": "常用",
+        "hot_score": 80,
+        "description": "JavaScript代码检查工具"
+      },
+      {
+        "name": "Prettier",
+        "aliases": ["prettier", "Prettier"],
+        "level": "常用",
+        "hot_score": 75,
+        "description": "代码格式化工具"
+      },
+      {
+        "name": "SWC",
+        "aliases": ["swc", "SWC"],
+        "level": "进阶",
+        "hot_score": 52,
+        "description": "Rust编写的编译器"
+      },
+      {
+        "name": "esbuild",
+        "aliases": ["esbuild", "ESBuild"],
+        "level": "常用",
+        "hot_score": 58,
+        "description": "极速JavaScript打包器"
+      },
+      {
+        "name": "Parcel",
+        "aliases": ["parcel", "Parcel"],
+        "level": "常用",
+        "hot_score": 45,
+        "description": "零配置打包工具"
+      },
+      {
+        "name": "Turbopack",
+        "aliases": ["turbopack", "Turbopack"],
+        "level": "进阶",
+        "hot_score": 48,
+        "description": "Rust打包器"
+      }
+    ],
+    "4_数据库": [
+      {
+        "name": "MySQL",
+        "aliases": ["mysql", "MySQL", "Mysql"],
+        "level": "核心",
+        "hot_score": 95,
+        "type": "关系型数据库",
+        "description": "最流行的开源关系型数据库"
+      },
+      {
+        "name": "PostgreSQL",
+        "aliases": ["postgresql", "postgres", "pgsql", "PostgreSQL", "Postgres"],
+        "level": "常用",
+        "hot_score": 70,
+        "type": "关系型数据库",
+        "description": "先进的开源关系型数据库"
+      },
+      {
+        "name": "Oracle",
+        "aliases": ["oracle", "Oracle", "Oracle数据库"],
+        "level": "常用",
+        "hot_score": 65,
+        "type": "关系型数据库",
+        "description": "企业级关系型数据库"
+      },
+      {
+        "name": "SQL Server",
+        "aliases": ["sqlserver", "mssql", "SQL Server", "Microsoft SQL Server"],
+        "level": "常用",
+        "hot_score": 60,
+        "type": "关系型数据库",
+        "description": "微软关系型数据库"
+      },
+      {
+        "name": "Redis",
+        "aliases": ["redis", "Redis"],
+        "level": "核心",
+        "hot_score": 92,
+        "type": "缓存/NoSQL",
+        "description": "高性能键值存储数据库"
+      },
+      {
+        "name": "MongoDB",
+        "aliases": ["mongodb", "mongo", "MongoDB", "Mongo"],
+        "level": "核心",
+        "hot_score": 85,
+        "type": "NoSQL文档数据库",
+        "description": "面向文档的NoSQL数据库"
+      },
+      {
+        "name": "Elasticsearch",
+        "aliases": ["elasticsearch", "es", "elastic", "Elasticsearch", "ES", "Elastic"],
+        "level": "常用",
+        "hot_score": 80,
+        "type": "搜索引擎",
+        "description": "分布式搜索和分析引擎"
+      },
+      {
+        "name": "Neo4j",
+        "aliases": ["neo4j", "Neo4j"],
+        "level": "专业",
+        "hot_score": 35,
+        "type": "图数据库",
+        "description": "领先的图数据库"
+      },
+      {
+        "name": "HBase",
+        "aliases": ["hbase", "HBase"],
+        "level": "进阶",
+        "hot_score": 45,
+        "type": "NoSQL列式数据库",
+        "description": "分布式列式数据库"
+      },
+      {
+        "name": "Cassandra",
+        "aliases": ["cassandra", "Cassandra"],
+        "level": "进阶",
+        "hot_score": 30,
+        "type": "NoSQL",
+        "description": "分布式NoSQL数据库"
+      },
+      {
+        "name": "ClickHouse",
+        "aliases": ["clickhouse", "ClickHouse"],
+        "level": "专业",
+        "hot_score": 55,
+        "type": "列式数据库",
+        "description": "OLAP列式数据库"
+      },
+      {
+        "name": "SQL",
+        "aliases": ["sql", "SQL"],
+        "level": "基础",
+        "hot_score": 98,
+        "type": "查询语言",
+        "description": "结构化查询语言"
+      },
+      {
+        "name": "SQLite",
+        "aliases": ["sqlite", "SQLite"],
+        "level": "常用",
+        "hot_score": 40,
+        "type": "嵌入式数据库",
+        "description": "轻量级嵌入式数据库"
+      },
+      {
+        "name": "Memcached",
+        "aliases": ["memcached", "Memcached"],
+        "level": "常用",
+        "hot_score": 45,
+        "type": "缓存",
+        "description": "分布式内存缓存系统"
+      },
+      {
+        "name": "DynamoDB",
+        "aliases": ["dynamodb", "DynamoDB"],
+        "level": "进阶",
+        "hot_score": 35,
+        "type": "NoSQL",
+        "description": "AWS NoSQL数据库"
+      },
+      {
+        "name": "TiDB",
+        "aliases": ["tidb", "TiDB"],
+        "level": "进阶",
+        "hot_score": 40,
+        "type": "分布式数据库",
+        "description": "国产分布式数据库"
+      },
+      {
+        "name": "Snowflake",
+        "aliases": ["snowflake", "Snowflake"],
+        "level": "进阶",
+        "hot_score": 48,
+        "type": "云数据仓库",
+        "description": "云原生数据仓库"
+      },
+      {
+        "name": "MinIO",
+        "aliases": ["minio", "MinIO"],
+        "level": "常用",
+        "hot_score": 52,
+        "type": "对象存储",
+        "description": "开源对象存储"
+      },
+      {
+        "name": "Couchbase",
+        "aliases": ["couchbase", "Couchbase"],
+        "level": "进阶",
+        "hot_score": 32,
+        "type": "NoSQL",
+        "description": "分布式NoSQL数据库"
+      },
+      {
+        "name": "Redshift",
+        "aliases": ["redshift", "Redshift", "Amazon Redshift"],
+        "level": "进阶",
+        "hot_score": 42,
+        "type": "数据仓库",
+        "description": "AWS数据仓库"
+      },
+      {
+        "name": "BigQuery",
+        "aliases": ["bigquery", "BigQuery", "Google BigQuery"],
+        "level": "进阶",
+        "hot_score": 45,
+        "type": "数据仓库",
+        "description": "Google云数据仓库"
+      },
+      {
+        "name": "Pinecone",
+        "aliases": ["pinecone", "Pinecone"],
+        "level": "专业",
+        "hot_score": 38,
+        "type": "向量数据库",
+        "description": "向量数据库"
+      },
+      {
+        "name": "Milvus",
+        "aliases": ["milvus", "Milvus"],
+        "level": "专业",
+        "hot_score": 35,
+        "type": "向量数据库",
+        "description": "开源向量数据库"
+      },
+      {
+        "name": "Weaviate",
+        "aliases": ["weaviate", "Weaviate"],
+        "level": "专业",
+        "hot_score": 32,
+        "type": "向量数据库",
+        "description": "AI原生向量数据库"
+      }
+    ],
+    "5_大数据与AI": [
+      {
+        "name": "Hadoop",
+        "aliases": ["hadoop", "Hadoop", "HDFS"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "大数据",
+        "description": "分布式存储和计算框架"
+      },
+      {
+        "name": "Spark",
+        "aliases": ["spark", "Spark", "apache spark", "Apache Spark"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "大数据",
+        "description": "快速通用的大数据处理引擎"
+      },
+      {
+        "name": "Flink",
+        "aliases": ["flink", "Flink", "apache flink", "Apache Flink"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "大数据",
+        "description": "流处理框架"
+      },
+      {
+        "name": "Kafka",
+        "aliases": ["kafka", "Kafka", "apache kafka", "Apache Kafka"],
+        "level": "核心",
+        "hot_score": 88,
+        "category": "消息队列",
+        "description": "分布式流处理平台"
+      },
+      {
+        "name": "Hive",
+        "aliases": ["hive", "Hive", "apache hive"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "大数据",
+        "description": "数据仓库工具"
+      },
+      {
+        "name": "HBase",
+        "aliases": ["hbase", "HBase"],
+        "level": "常用",
+        "hot_score": 50,
+        "category": "大数据",
+        "description": "分布式列式数据库"
+      },
+      {
+        "name": "Storm",
+        "aliases": ["storm", "Storm", "apache storm"],
+        "level": "常用",
+        "hot_score": 35,
+        "category": "大数据",
+        "description": "实时流处理系统"
+      },
+      {
+        "name": "Sqoop",
+        "aliases": ["sqoop", "Sqoop"],
+        "level": "常用",
+        "hot_score": 30,
+        "category": "大数据",
+        "description": "数据迁移工具"
+      },
+      {
+        "name": "Flume",
+        "aliases": ["flume", "Flume"],
+        "level": "常用",
+        "hot_score": 30,
+        "category": "大数据",
+        "description": "日志采集系统"
+      },
+      {
+        "name": "机器学习",
+        "aliases": ["machine learning", "ml", "机器学习", "ML"],
+        "level": "核心",
+        "hot_score": 85,
+        "category": "人工智能",
+        "description": "机器学习算法和应用"
+      },
+      {
+        "name": "深度学习",
+        "aliases": ["deep learning", "dl", "深度学习", "DL"],
+        "level": "核心",
+        "hot_score": 88,
+        "category": "人工智能",
+        "description": "深度神经网络"
+      },
+      {
+        "name": "TensorFlow",
+        "aliases": ["tensorflow", "tf", "TensorFlow"],
+        "level": "核心",
+        "hot_score": 80,
+        "category": "AI框架",
+        "description": "Google深度学习框架"
+      },
+      {
+        "name": "PyTorch",
+        "aliases": ["pytorch", "torch", "PyTorch"],
+        "level": "核心",
+        "hot_score": 85,
+        "category": "AI框架",
+        "description": "Facebook深度学习框架"
+      },
+      {
+        "name": "Keras",
+        "aliases": ["keras", "Keras"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "AI框架",
+        "description": "高层神经网络API"
+      },
+      {
+        "name": "scikit-learn",
+        "aliases": ["sklearn", "scikit-learn", "scikit learn"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "机器学习",
+        "description": "Python机器学习库"
+      },
+      {
+        "name": "Pandas",
+        "aliases": ["pandas", "Pandas"],
+        "level": "常用",
+        "hot_score": 80,
+        "category": "数据分析",
+        "description": "数据分析处理库"
+      },
+      {
+        "name": "NumPy",
+        "aliases": ["numpy", "NumPy"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "数据分析",
+        "description": "科学计算库"
+      },
+      {
+        "name": "Matplotlib",
+        "aliases": ["matplotlib", "Matplotlib"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "数据可视化",
+        "description": "数据可视化库"
+      },
+      {
+        "name": "NLP",
+        "aliases": ["nlp", "自然语言处理", "NLP", "Natural Language Processing"],
+        "level": "专业",
+        "hot_score": 75,
+        "category": "人工智能",
+        "description": "自然语言处理技术"
+      },
+      {
+        "name": "计算机视觉",
+        "aliases": ["cv", "computer vision", "图像处理", "CV"],
+        "level": "专业",
+        "hot_score": 70,
+        "category": "人工智能",
+        "description": "计算机视觉技术"
+      },
+      {
+        "name": "OpenCV",
+        "aliases": ["opencv", "OpenCV"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "计算机视觉",
+        "description": "计算机视觉库"
+      },
+      {
+        "name": "XGBoost",
+        "aliases": ["xgboost", "XGBoost"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "机器学习",
+        "description": "梯度提升树算法"
+      },
+      {
+        "name": "LightGBM",
+        "aliases": ["lightgbm", "lgb", "LightGBM"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "机器学习",
+        "description": "轻量级梯度提升框架"
+      },
+      {
+        "name": "BERT",
+        "aliases": ["bert", "BERT"],
+        "level": "专业",
+        "hot_score": 65,
+        "category": "NLP",
+        "description": "预训练语言模型"
+      },
+      {
+        "name": "GPT",
+        "aliases": ["gpt", "GPT", "ChatGPT"],
+        "level": "专业",
+        "hot_score": 75,
+        "category": "NLP",
+        "description": "生成式预训练模型"
+      },
+      {
+        "name": "LLM",
+        "aliases": ["llm", "LLM", "大语言模型", "大模型"],
+        "level": "专业",
+        "hot_score": 80,
+        "category": "人工智能",
+        "description": "大语言模型"
+      },
+      {
+        "name": "强化学习",
+        "aliases": ["reinforcement learning", "rl", "强化学习", "RL"],
+        "level": "专业",
+        "hot_score": 50,
+        "category": "人工智能",
+        "description": "强化学习算法"
+      },
+      {
+        "name": "LangChain",
+        "aliases": ["langchain", "LangChain"],
+        "level": "专业",
+        "hot_score": 72,
+        "category": "AI应用",
+        "description": "LLM应用开发框架"
+      },
+      {
+        "name": "LlamaIndex",
+        "aliases": ["llamaindex", "LlamaIndex", "llama-index"],
+        "level": "专业",
+        "hot_score": 58,
+        "category": "AI应用",
+        "description": "LLM数据框架"
+      },
+      {
+        "name": "Hugging Face",
+        "aliases": ["huggingface", "transformers", "Hugging Face"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "AI工具",
+        "description": "AI模型和工具库"
+      },
+      {
+        "name": "ONNX",
+        "aliases": ["onnx", "ONNX"],
+        "level": "专业",
+        "hot_score": 52,
+        "category": "AI工具",
+        "description": "神经网络交换格式"
+      },
+      {
+        "name": "Stable Diffusion",
+        "aliases": ["stable diffusion", "SD", "Stable Diffusion"],
+        "level": "专业",
+        "hot_score": 65,
+        "category": "AIGC",
+        "description": "AI图像生成模型"
+      },
+      {
+        "name": "Midjourney",
+        "aliases": ["midjourney", "Midjourney", "MJ"],
+        "level": "专业",
+        "hot_score": 58,
+        "category": "AIGC",
+        "description": "AI艺术生成工具"
+      },
+      {
+        "name": "DALL-E",
+        "aliases": ["dalle", "dall-e", "DALL-E"],
+        "level": "专业",
+        "hot_score": 55,
+        "category": "AIGC",
+        "description": "OpenAI图像生成"
+      },
+      {
+        "name": "Ollama",
+        "aliases": ["ollama", "Ollama"],
+        "level": "专业",
+        "hot_score": 48,
+        "category": "AI工具",
+        "description": "本地大模型运行工具"
+      },
+      {
+        "name": "RAG",
+        "aliases": ["rag", "RAG", "检索增强生成"],
+        "level": "专业",
+        "hot_score": 68,
+        "category": "AI技术",
+        "description": "检索增强生成技术"
+      },
+      {
+        "name": "Prompt Engineering",
+        "aliases": ["prompt", "提示工程", "Prompt Engineering"],
+        "level": "专业",
+        "hot_score": 70,
+        "category": "AI技术",
+        "description": "提示词工程"
+      },
+      {
+        "name": "Fine-tuning",
+        "aliases": ["finetuning", "fine-tuning", "微调", "模型微调"],
+        "level": "专业",
+        "hot_score": 72,
+        "category": "AI技术",
+        "description": "模型微调技术"
+      },
+      {
+        "name": "YOLO",
+        "aliases": ["yolo", "YOLO"],
+        "level": "专业",
+        "hot_score": 62,
+        "category": "计算机视觉",
+        "description": "目标检测算法"
+      },
+      {
+        "name": "Airflow",
+        "aliases": ["airflow", "Airflow", "Apache Airflow"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "数据工程",
+        "description": "工作流调度平台"
+      },
+      {
+        "name": "Prefect",
+        "aliases": ["prefect", "Prefect"],
+        "level": "常用",
+        "hot_score": 42,
+        "category": "数据工程",
+        "description": "现代化工作流引擎"
+      },
+      {
+        "name": "dbt",
+        "aliases": ["dbt", "DBT"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "数据工程",
+        "description": "数据转换工具"
+      },
+      {
+        "name": "Databricks",
+        "aliases": ["databricks", "Databricks"],
+        "level": "进阶",
+        "hot_score": 55,
+        "category": "大数据平台",
+        "description": "统一数据分析平台"
+      },
+      {
+        "name": "Presto",
+        "aliases": ["presto", "Presto", "PrestoDB"],
+        "level": "进阶",
+        "hot_score": 48,
+        "category": "大数据",
+        "description": "分布式SQL查询引擎"
+      },
+      {
+        "name": "Trino",
+        "aliases": ["trino", "Trino"],
+        "level": "进阶",
+        "hot_score": 45,
+        "category": "大数据",
+        "description": "分布式查询引擎"
+      }
+    ],
+    "6_云原生与DevOps": [
+      {
+        "name": "Docker",
+        "aliases": ["docker", "Docker"],
+        "level": "核心",
+        "hot_score": 90,
+        "category": "容器技术",
+        "description": "应用容器引擎"
+      },
+      {
+        "name": "Kubernetes",
+        "aliases": ["k8s", "kubernetes", "Kubernetes", "K8s"],
+        "level": "核心",
+        "hot_score": 88,
+        "category": "容器编排",
+        "description": "容器编排平台"
+      },
+      {
+        "name": "Jenkins",
+        "aliases": ["jenkins", "Jenkins"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "CI/CD",
+        "description": "持续集成工具"
+      },
+      {
+        "name": "GitLab CI",
+        "aliases": ["gitlab", "gitlab-ci", "GitLab", "GitLab CI/CD"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "CI/CD",
+        "description": "GitLab持续集成"
+      },
+      {
+        "name": "GitHub Actions",
+        "aliases": ["github actions", "GitHub Actions"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "CI/CD",
+        "description": "GitHub自动化工作流"
+      },
+      {
+        "name": "Travis CI",
+        "aliases": ["travis", "travis-ci", "Travis CI"],
+        "level": "常用",
+        "hot_score": 35,
+        "category": "CI/CD",
+        "description": "持续集成服务"
+      },
+      {
+        "name": "CircleCI",
+        "aliases": ["circleci", "CircleCI"],
+        "level": "常用",
+        "hot_score": 30,
+        "category": "CI/CD",
+        "description": "持续集成平台"
+      },
+      {
+        "name": "Nginx",
+        "aliases": ["nginx", "Nginx", "NGINX"],
+        "level": "核心",
+        "hot_score": 85,
+        "category": "Web服务器",
+        "description": "高性能Web服务器"
+      },
+      {
+        "name": "Apache",
+        "aliases": ["apache", "Apache", "httpd"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "Web服务器",
+        "description": "Apache HTTP服务器"
+      },
+      {
+        "name": "Tomcat",
+        "aliases": ["tomcat", "Tomcat"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "应用服务器",
+        "description": "Java应用服务器"
+      },
+      {
+        "name": "AWS",
+        "aliases": ["aws", "amazon", "AWS", "Amazon Web Services"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "云平台",
+        "description": "亚马逊云服务"
+      },
+      {
+        "name": "阿里云",
+        "aliases": ["aliyun", "阿里云", "Aliyun"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "云平台",
+        "description": "阿里云计算平台"
+      },
+      {
+        "name": "腾讯云",
+        "aliases": ["tencent cloud", "腾讯云", "Tencent Cloud"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "云平台",
+        "description": "腾讯云计算平台"
+      },
+      {
+        "name": "Azure",
+        "aliases": ["azure", "Azure", "Microsoft Azure"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "云平台",
+        "description": "微软云服务"
+      },
+      {
+        "name": "Google Cloud",
+        "aliases": ["gcp", "google cloud", "Google Cloud", "GCP"],
+        "level": "常用",
+        "hot_score": 50,
+        "category": "云平台",
+        "description": "谷歌云平台"
+      },
+      {
+        "name": "微服务",
+        "aliases": ["microservice", "微服务", "微服务架构", "Microservices"],
+        "level": "进阶",
+        "hot_score": 82,
+        "category": "架构",
+        "description": "微服务架构模式"
+      },
+      {
+        "name": "Service Mesh",
+        "aliases": ["servicemesh", "服务网格", "Service Mesh"],
+        "level": "进阶",
+        "hot_score": 45,
+        "category": "架构",
+        "description": "服务网格技术"
+      },
+      {
+        "name": "Istio",
+        "aliases": ["istio", "Istio"],
+        "level": "进阶",
+        "hot_score": 40,
+        "category": "服务网格",
+        "description": "服务网格平台"
+      },
+      {
+        "name": "Prometheus",
+        "aliases": ["prometheus", "Prometheus"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "监控",
+        "description": "监控和告警系统"
+      },
+      {
+        "name": "Grafana",
+        "aliases": ["grafana", "Grafana"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "监控",
+        "description": "数据可视化平台"
+      },
+      {
+        "name": "Terraform",
+        "aliases": ["terraform", "Terraform"],
+        "level": "进阶",
+        "hot_score": 55,
+        "category": "基础设施即代码",
+        "description": "基础设施自动化工具"
+      },
+      {
+        "name": "Ansible",
+        "aliases": ["ansible", "Ansible"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "自动化运维",
+        "description": "自动化配置管理工具"
+      },
+      {
+        "name": "Puppet",
+        "aliases": ["puppet", "Puppet"],
+        "level": "常用",
+        "hot_score": 30,
+        "category": "配置管理",
+        "description": "配置管理工具"
+      },
+      {
+        "name": "Chef",
+        "aliases": ["chef", "Chef"],
+        "level": "常用",
+        "hot_score": 25,
+        "category": "配置管理",
+        "description": "配置管理工具"
+      },
+      {
+        "name": "ELK",
+        "aliases": ["elk", "ELK", "Elastic Stack"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "日志分析",
+        "description": "日志分析技术栈"
+      },
+      {
+        "name": "Helm",
+        "aliases": ["helm", "Helm"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "K8s工具",
+        "description": "Kubernetes包管理器"
+      },
+      {
+        "name": "ArgoCD",
+        "aliases": ["argocd", "argo", "ArgoCD", "Argo CD"],
+        "level": "进阶",
+        "hot_score": 58,
+        "category": "GitOps",
+        "description": "GitOps持续部署"
+      },
+      {
+        "name": "Flux",
+        "aliases": ["flux", "Flux", "FluxCD"],
+        "level": "进阶",
+        "hot_score": 42,
+        "category": "GitOps",
+        "description": "GitOps工具"
+      },
+      {
+        "name": "Tekton",
+        "aliases": ["tekton", "Tekton"],
+        "level": "进阶",
+        "hot_score": 38,
+        "category": "CI/CD",
+        "description": "云原生CI/CD"
+      },
+      {
+        "name": "Rancher",
+        "aliases": ["rancher", "Rancher"],
+        "level": "常用",
+        "hot_score": 52,
+        "category": "K8s管理",
+        "description": "Kubernetes管理平台"
+      },
+      {
+        "name": "OpenShift",
+        "aliases": ["openshift", "OpenShift"],
+        "level": "进阶",
+        "hot_score": 48,
+        "category": "容器平台",
+        "description": "企业Kubernetes平台"
+      },
+      {
+        "name": "Jaeger",
+        "aliases": ["jaeger", "Jaeger"],
+        "level": "进阶",
+        "hot_score": 52,
+        "category": "链路追踪",
+        "description": "分布式追踪系统"
+      },
+      {
+        "name": "Zipkin",
+        "aliases": ["zipkin", "Zipkin"],
+        "level": "常用",
+        "hot_score": 45,
+        "category": "链路追踪",
+        "description": "分布式追踪系统"
+      },
+      {
+        "name": "SkyWalking",
+        "aliases": ["skywalking", "SkyWalking"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "APM",
+        "description": "应用性能监控"
+      },
+      {
+        "name": "Datadog",
+        "aliases": ["datadog", "Datadog"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "监控",
+        "description": "云监控平台"
+      },
+      {
+        "name": "New Relic",
+        "aliases": ["newrelic", "new relic", "New Relic"],
+        "level": "常用",
+        "hot_score": 48,
+        "category": "APM",
+        "description": "应用性能管理"
+      },
+      {
+        "name": "Sentry",
+        "aliases": ["sentry", "Sentry"],
+        "level": "常用",
+        "hot_score": 62,
+        "category": "错误追踪",
+        "description": "错误监控平台"
+      },
+      {
+        "name": "Pulumi",
+        "aliases": ["pulumi", "Pulumi"],
+        "level": "进阶",
+        "hot_score": 42,
+        "category": "基础设施即代码",
+        "description": "云基础设施管理"
+      },
+      {
+        "name": "CloudFormation",
+        "aliases": ["cloudformation", "CloudFormation", "CFN"],
+        "level": "常用",
+        "hot_score": 48,
+        "category": "AWS工具",
+        "description": "AWS基础设施管理"
+      },
+      {
+        "name": "Nomad",
+        "aliases": ["nomad", "Nomad"],
+        "level": "进阶",
+        "hot_score": 35,
+        "category": "容器编排",
+        "description": "轻量级编排工具"
+      }
+    ],
+    "7_开发工具": [
+      {
+        "name": "Git",
+        "aliases": ["git", "Git"],
+        "level": "核心",
+        "hot_score": 98,
+        "category": "版本控制",
+        "description": "分布式版本控制系统"
+      },
+      {
+        "name": "GitHub",
+        "aliases": ["github", "GitHub"],
+        "level": "核心",
+        "hot_score": 85,
+        "category": "代码托管",
+        "description": "代码托管平台"
+      },
+      {
+        "name": "GitLab",
+        "aliases": ["gitlab", "GitLab"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "代码托管",
+        "description": "DevOps平台"
+      },
+      {
+        "name": "SVN",
+        "aliases": ["svn", "SVN", "Subversion"],
+        "level": "常用",
+        "hot_score": 40,
+        "category": "版本控制",
+        "description": "集中式版本控制系统"
+      },
+      {
+        "name": "Linux",
+        "aliases": ["linux", "Linux", "CentOS", "Ubuntu"],
+        "level": "核心",
+        "hot_score": 90,
+        "category": "操作系统",
+        "description": "开源操作系统"
+      },
+      {
+        "name": "Unix",
+        "aliases": ["unix", "Unix"],
+        "level": "常用",
+        "hot_score": 45,
+        "category": "操作系统",
+        "description": "Unix操作系统"
+      },
+      {
+        "name": "Windows",
+        "aliases": ["windows", "Windows"],
+        "level": "基础",
+        "hot_score": 60,
+        "category": "操作系统",
+        "description": "微软操作系统"
+      },
+      {
+        "name": "Maven",
+        "aliases": ["maven", "Maven"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "构建工具",
+        "description": "Java项目管理工具"
+      },
+      {
+        "name": "Gradle",
+        "aliases": ["gradle", "Gradle"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "构建工具",
+        "description": "自动化构建工具"
+      },
+      {
+        "name": "npm",
+        "aliases": ["npm", "NPM"],
+        "level": "常用",
+        "hot_score": 85,
+        "category": "包管理",
+        "description": "Node包管理器"
+      },
+      {
+        "name": "yarn",
+        "aliases": ["yarn", "Yarn"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "包管理",
+        "description": "快速可靠的包管理器"
+      },
+      {
+        "name": "pnpm",
+        "aliases": ["pnpm", "PNPM"],
+        "level": "常用",
+        "hot_score": 50,
+        "category": "包管理",
+        "description": "高效的包管理器"
+      },
+      {
+        "name": "pip",
+        "aliases": ["pip", "PIP"],
+        "level": "常用",
+        "hot_score": 80,
+        "category": "包管理",
+        "description": "Python包管理器"
+      },
+      {
+        "name": "RabbitMQ",
+        "aliases": ["rabbitmq", "RabbitMQ"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "消息队列",
+        "description": "消息中间件"
+      },
+      {
+        "name": "RocketMQ",
+        "aliases": ["rocketmq", "RocketMQ"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "消息队列",
+        "description": "阿里消息中间件"
+      },
+      {
+        "name": "ActiveMQ",
+        "aliases": ["activemq", "ActiveMQ"],
+        "level": "常用",
+        "hot_score": 45,
+        "category": "消息队列",
+        "description": "Apache消息中间件"
+      },
+      {
+        "name": "Zookeeper",
+        "aliases": ["zookeeper", "Zookeeper", "ZK"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "分布式协调",
+        "description": "分布式协调服务"
+      },
+      {
+        "name": "Etcd",
+        "aliases": ["etcd", "Etcd"],
+        "level": "进阶",
+        "hot_score": 50,
+        "category": "分布式协调",
+        "description": "分布式键值存储"
+      },
+      {
+        "name": "Consul",
+        "aliases": ["consul", "Consul"],
+        "level": "进阶",
+        "hot_score": 45,
+        "category": "服务发现",
+        "description": "服务发现和配置"
+      },
+      {
+        "name": "Nacos",
+        "aliases": ["nacos", "Nacos"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "服务发现",
+        "description": "动态服务发现和配置"
+      },
+      {
+        "name": "Postman",
+        "aliases": ["postman", "Postman"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "API测试",
+        "description": "API开发测试工具"
+      },
+      {
+        "name": "Swagger",
+        "aliases": ["swagger", "Swagger"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "API文档",
+        "description": "API文档生成工具"
+      },
+      {
+        "name": "Jira",
+        "aliases": ["jira", "Jira", "JIRA"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "项目管理",
+        "description": "项目管理和缺陷跟踪"
+      },
+      {
+        "name": "Confluence",
+        "aliases": ["confluence", "Confluence"],
+        "level": "常用",
+        "hot_score": 45,
+        "category": "协作工具",
+        "description": "团队协作和知识管理"
+      },
+      {
+        "name": "VS Code",
+        "aliases": ["vscode", "vs code", "VSCode", "Visual Studio Code"],
+        "level": "核心",
+        "hot_score": 90,
+        "category": "IDE",
+        "description": "轻量级代码编辑器"
+      },
+      {
+        "name": "IntelliJ IDEA",
+        "aliases": ["idea", "intellij", "IntelliJ", "IDEA"],
+        "level": "核心",
+        "hot_score": 80,
+        "category": "IDE",
+        "description": "Java开发IDE"
+      },
+      {
+        "name": "PyCharm",
+        "aliases": ["pycharm", "PyCharm"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "IDE",
+        "description": "Python开发IDE"
+      },
+      {
+        "name": "Eclipse",
+        "aliases": ["eclipse", "Eclipse"],
+        "level": "常用",
+        "hot_score": 50,
+        "category": "IDE",
+        "description": "Java开发IDE"
+      },
+      {
+        "name": "WebStorm",
+        "aliases": ["webstorm", "WebStorm"],
+        "level": "常用",
+        "hot_score": 62,
+        "category": "IDE",
+        "description": "Web开发IDE"
+      },
+      {
+        "name": "Vim",
+        "aliases": ["vim", "Vim", "vi"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "编辑器",
+        "description": "经典编辑器"
+      },
+      {
+        "name": "Emacs",
+        "aliases": ["emacs", "Emacs"],
+        "level": "常用",
+        "hot_score": 38,
+        "category": "编辑器",
+        "description": "可扩展编辑器"
+      },
+      {
+        "name": "Sublime Text",
+        "aliases": ["sublime", "sublime text", "Sublime"],
+        "level": "常用",
+        "hot_score": 48,
+        "category": "编辑器",
+        "description": "轻量级编辑器"
+      },
+      {
+        "name": "Notion",
+        "aliases": ["notion", "Notion"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "协作工具",
+        "description": "全能笔记协作工具"
+      },
+      {
+        "name": "Slack",
+        "aliases": ["slack", "Slack"],
+        "level": "常用",
+        "hot_score": 72,
+        "category": "协作工具",
+        "description": "团队沟通平台"
+      },
+      {
+        "name": "Trello",
+        "aliases": ["trello", "Trello"],
+        "level": "常用",
+        "hot_score": 52,
+        "category": "项目管理",
+        "description": "看板式项目管理"
+      },
+      {
+        "name": "Asana",
+        "aliases": ["asana", "Asana"],
+        "level": "常用",
+        "hot_score": 45,
+        "category": "项目管理",
+        "description": "任务管理工具"
+      },
+      {
+        "name": "Monday.com",
+        "aliases": ["monday", "Monday", "Monday.com"],
+        "level": "常用",
+        "hot_score": 42,
+        "category": "项目管理",
+        "description": "工作操作系统"
+      },
+      {
+        "name": "Figma",
+        "aliases": ["figma", "Figma"],
+        "level": "常用",
+        "hot_score": 78,
+        "category": "设计工具",
+        "description": "协作设计工具"
+      },
+      {
+        "name": "Sketch",
+        "aliases": ["sketch", "Sketch"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "设计工具",
+        "description": "UI设计工具"
+      },
+      {
+        "name": "Adobe XD",
+        "aliases": ["xd", "adobe xd", "AdobeXD"],
+        "level": "常用",
+        "hot_score": 48,
+        "category": "设计工具",
+        "description": "UI/UX设计工具"
+      },
+      {
+        "name": "Axure",
+        "aliases": ["axure", "Axure", "Axure RP"],
+        "level": "常用",
+        "hot_score": 45,
+        "category": "原型工具",
+        "description": "原型设计工具"
+      },
+      {
+        "name": "Insomnia",
+        "aliases": ["insomnia", "Insomnia"],
+        "level": "常用",
+        "hot_score": 52,
+        "category": "API测试",
+        "description": "REST客户端"
+      },
+      {
+        "name": "Charles",
+        "aliases": ["charles", "Charles"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "抓包工具",
+        "description": "HTTP代理抓包工具"
+      },
+      {
+        "name": "Fiddler",
+        "aliases": ["fiddler", "Fiddler"],
+        "level": "常用",
+        "hot_score": 52,
+        "category": "抓包工具",
+        "description": "Web调试代理"
+      },
+      {
+        "name": "Wireshark",
+        "aliases": ["wireshark", "Wireshark"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "抓包工具",
+        "description": "网络协议分析器"
+      }
+    ],
+    "12_测试与质量": [
+      {
+        "name": "JUnit",
+        "aliases": ["junit", "JUnit"],
+        "level": "核心",
+        "hot_score": 82,
+        "category": "Java测试",
+        "description": "Java单元测试框架"
+      },
+      {
+        "name": "TestNG",
+        "aliases": ["testng", "TestNG"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "Java测试",
+        "description": "Java测试框架"
+      },
+      {
+        "name": "Mockito",
+        "aliases": ["mockito", "Mockito"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "Mock工具",
+        "description": "Java Mock框架"
+      },
+      {
+        "name": "pytest",
+        "aliases": ["pytest", "py.test"],
+        "level": "核心",
+        "hot_score": 78,
+        "category": "Python测试",
+        "description": "Python测试框架"
+      },
+      {
+        "name": "unittest",
+        "aliases": ["unittest", "unit test"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "Python测试",
+        "description": "Python单元测试"
+      },
+      {
+        "name": "Jest",
+        "aliases": ["jest", "Jest"],
+        "level": "核心",
+        "hot_score": 85,
+        "category": "JS测试",
+        "description": "JavaScript测试框架"
+      },
+      {
+        "name": "Mocha",
+        "aliases": ["mocha", "Mocha"],
+        "level": "常用",
+        "hot_score": 62,
+        "category": "JS测试",
+        "description": "JavaScript测试框架"
+      },
+      {
+        "name": "Chai",
+        "aliases": ["chai", "Chai"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "断言库",
+        "description": "断言库"
+      },
+      {
+        "name": "Vitest",
+        "aliases": ["vitest", "Vitest"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "JS测试",
+        "description": "Vite原生测试框架"
+      },
+      {
+        "name": "Cypress",
+        "aliases": ["cypress", "Cypress"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "E2E测试",
+        "description": "前端E2E测试"
+      },
+      {
+        "name": "Playwright",
+        "aliases": ["playwright", "Playwright"],
+        "level": "常用",
+        "hot_score": 72,
+        "category": "E2E测试",
+        "description": "跨浏览器测试"
+      },
+      {
+        "name": "Puppeteer",
+        "aliases": ["puppeteer", "Puppeteer"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "自动化",
+        "description": "Chrome自动化"
+      },
+      {
+        "name": "Selenium",
+        "aliases": ["selenium", "Selenium"],
+        "level": "核心",
+        "hot_score": 78,
+        "category": "自动化测试",
+        "description": "Web自动化测试"
+      },
+      {
+        "name": "Appium",
+        "aliases": ["appium", "Appium"],
+        "level": "常用",
+        "hot_score": 62,
+        "category": "移动测试",
+        "description": "移动应用自动化"
+      },
+      {
+        "name": "JMeter",
+        "aliases": ["jmeter", "JMeter"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "性能测试",
+        "description": "性能测试工具"
+      },
+      {
+        "name": "Gatling",
+        "aliases": ["gatling", "Gatling"],
+        "level": "常用",
+        "hot_score": 52,
+        "category": "性能测试",
+        "description": "高性能测试工具"
+      },
+      {
+        "name": "Locust",
+        "aliases": ["locust", "Locust"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "压力测试",
+        "description": "Python压力测试"
+      },
+      {
+        "name": "K6",
+        "aliases": ["k6", "K6"],
+        "level": "常用",
+        "hot_score": 48,
+        "category": "性能测试",
+        "description": "现代负载测试"
+      },
+      {
+        "name": "SonarQube",
+        "aliases": ["sonarqube", "sonar", "SonarQube"],
+        "level": "常用",
+        "hot_score": 72,
+        "category": "代码质量",
+        "description": "代码质量管理"
+      },
+      {
+        "name": "Codecov",
+        "aliases": ["codecov", "Codecov"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "代码覆盖",
+        "description": "代码覆盖率分析"
+      },
+      {
+        "name": "Coveralls",
+        "aliases": ["coveralls", "Coveralls"],
+        "level": "常用",
+        "hot_score": 48,
+        "category": "代码覆盖",
+        "description": "代码覆盖率服务"
+      },
+      {
+        "name": "Testing Library",
+        "aliases": ["testing-library", "react testing library", "Testing Library"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "React测试",
+        "description": "React测试工具库"
+      },
+      {
+        "name": "Enzyme",
+        "aliases": ["enzyme", "Enzyme"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "React测试",
+        "description": "React测试工具"
+      },
+      {
+        "name": "Vue Test Utils",
+        "aliases": ["vue-test-utils", "VTU"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "Vue测试",
+        "description": "Vue测试工具"
+      },
+      {
+        "name": "Storybook",
+        "aliases": ["storybook", "Storybook"],
+        "level": "常用",
+        "hot_score": 72,
+        "category": "组件开发",
+        "description": "UI组件开发环境"
+      }
+    ],
+    "13_安全": [
+      {
+        "name": "OAuth",
+        "aliases": ["oauth", "OAuth", "OAuth2", "oauth2"],
+        "level": "核心",
+        "hot_score": 82,
+        "category": "认证授权",
+        "description": "开放授权协议"
+      },
+      {
+        "name": "JWT",
+        "aliases": ["jwt", "JWT", "json web token"],
+        "level": "核心",
+        "hot_score": 88,
+        "category": "认证",
+        "description": "JSON Web Token"
+      },
+      {
+        "name": "SSO",
+        "aliases": ["sso", "SSO", "单点登录", "Single Sign-On"],
+        "level": "常用",
+        "hot_score": 72,
+        "category": "认证",
+        "description": "单点登录"
+      },
+      {
+        "name": "SAML",
+        "aliases": ["saml", "SAML"],
+        "level": "进阶",
+        "hot_score": 55,
+        "category": "认证",
+        "description": "安全断言标记语言"
+      },
+      {
+        "name": "LDAP",
+        "aliases": ["ldap", "LDAP"],
+        "level": "常用",
+        "hot_score": 62,
+        "category": "目录服务",
+        "description": "轻量级目录访问协议"
+      },
+      {
+        "name": "Active Directory",
+        "aliases": ["ad", "active directory", "AD"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "目录服务",
+        "description": "活动目录服务"
+      },
+      {
+        "name": "Keycloak",
+        "aliases": ["keycloak", "Keycloak"],
+        "level": "常用",
+        "hot_score": 58,
+        "category": "身份管理",
+        "description": "开源身份管理"
+      },
+      {
+        "name": "Auth0",
+        "aliases": ["auth0", "Auth0"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "身份管理",
+        "description": "身份验证平台"
+      },
+      {
+        "name": "HTTPS",
+        "aliases": ["https", "HTTPS", "SSL", "TLS"],
+        "level": "核心",
+        "hot_score": 92,
+        "category": "网络安全",
+        "description": "安全传输协议"
+      },
+      {
+        "name": "加密算法",
+        "aliases": ["encryption", "加密", "AES", "RSA"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "密码学",
+        "description": "数据加密技术"
+      },
+      {
+        "name": "OWASP",
+        "aliases": ["owasp", "OWASP"],
+        "level": "进阶",
+        "hot_score": 65,
+        "category": "Web安全",
+        "description": "Web应用安全项目"
+      },
+      {
+        "name": "XSS",
+        "aliases": ["xss", "XSS", "跨站脚本"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "Web安全",
+        "description": "跨站脚本攻击"
+      },
+      {
+        "name": "CSRF",
+        "aliases": ["csrf", "CSRF", "跨站请求伪造"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "Web安全",
+        "description": "跨站请求伪造"
+      },
+      {
+        "name": "SQL注入",
+        "aliases": ["sql injection", "sql注入", "SQL Injection"],
+        "level": "常用",
+        "hot_score": 72,
+        "category": "数据库安全",
+        "description": "SQL注入攻击防御"
+      },
+      {
+        "name": "渗透测试",
+        "aliases": ["penetration testing", "渗透测试", "pentest"],
+        "level": "专业",
+        "hot_score": 58,
+        "category": "安全测试",
+        "description": "安全渗透测试"
+      },
+      {
+        "name": "WAF",
+        "aliases": ["waf", "WAF", "web application firewall"],
+        "level": "进阶",
+        "hot_score": 62,
+        "category": "网络安全",
+        "description": "Web应用防火墙"
+      },
+      {
+        "name": "防火墙",
+        "aliases": ["firewall", "防火墙", "Firewall"],
+        "level": "常用",
+        "hot_score": 68,
+        "category": "网络安全",
+        "description": "网络防火墙"
+      },
+      {
+        "name": "VPN",
+        "aliases": ["vpn", "VPN", "虚拟专用网"],
+        "level": "常用",
+        "hot_score": 62,
+        "category": "网络安全",
+        "description": "虚拟专用网络"
+      },
+      {
+        "name": "零信任",
+        "aliases": ["zero trust", "零信任", "Zero Trust"],
+        "level": "进阶",
+        "hot_score": 55,
+        "category": "安全架构",
+        "description": "零信任安全架构"
+      },
+      {
+        "name": "Vault",
+        "aliases": ["vault", "Vault", "HashiCorp Vault"],
+        "level": "进阶",
+        "hot_score": 58,
+        "category": "密钥管理",
+        "description": "密钥和机密管理"
+      },
+      {
+        "name": "Snyk",
+        "aliases": ["snyk", "Snyk"],
+        "level": "常用",
+        "hot_score": 52,
+        "category": "安全扫描",
+        "description": "代码安全扫描"
+      },
+      {
+        "name": "Trivy",
+        "aliases": ["trivy", "Trivy"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "容器安全",
+        "description": "容器镜像扫描"
+      },
+      {
+        "name": "Falco",
+        "aliases": ["falco", "Falco"],
+        "level": "进阶",
+        "hot_score": 45,
+        "category": "运行时安全",
+        "description": "云原生运行时安全"
+      }
+    ],
+    "8_软技能与基础": [
+      {
+        "name": "数据结构",
+        "aliases": ["数据结构", "data structure"],
+        "level": "基础",
+        "hot_score": 90,
+        "category": "计算机基础",
+        "description": "数据组织和存储方式"
+      },
+      {
+        "name": "算法",
+        "aliases": ["算法", "algorithm", "算法设计"],
+        "level": "基础",
+        "hot_score": 92,
+        "category": "计算机基础",
+        "description": "问题解决方法和步骤"
+      },
+      {
+        "name": "设计模式",
+        "aliases": ["设计模式", "design pattern", "Design Pattern"],
+        "level": "进阶",
+        "hot_score": 75,
+        "category": "软件工程",
+        "description": "可复用的软件设计方案"
+      },
+      {
+        "name": "面向对象",
+        "aliases": ["oop", "OOP", "面向对象编程", "面向对象"],
+        "level": "基础",
+        "hot_score": 85,
+        "category": "编程范式",
+        "description": "面向对象编程思想"
+      },
+      {
+        "name": "函数式编程",
+        "aliases": ["函数式编程", "functional programming", "FP"],
+        "level": "进阶",
+        "hot_score": 55,
+        "category": "编程范式",
+        "description": "函数式编程思想"
+      },
+      {
+        "name": "高并发",
+        "aliases": ["高并发", "并发编程", "concurrency", "高并发处理"],
+        "level": "进阶",
+        "hot_score": 88,
+        "category": "性能优化",
+        "description": "高并发系统设计"
+      },
+      {
+        "name": "分布式",
+        "aliases": ["分布式", "分布式系统", "distributed system"],
+        "level": "进阶",
+        "hot_score": 85,
+        "category": "架构",
+        "description": "分布式系统设计"
+      },
+      {
+        "name": "多线程",
+        "aliases": ["多线程", "并发", "multithreading", "线程"],
+        "level": "常用",
+        "hot_score": 80,
+        "category": "编程",
+        "description": "多线程编程"
+      },
+      {
+        "name": "异步编程",
+        "aliases": ["异步编程", "async", "asynchronous", "异步"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "编程",
+        "description": "异步编程模式"
+      },
+      {
+        "name": "RESTful API",
+        "aliases": ["restful", "rest", "api", "RESTful", "REST API"],
+        "level": "常用",
+        "hot_score": 90,
+        "category": "接口设计",
+        "description": "RESTful架构风格"
+      },
+      {
+        "name": "GraphQL",
+        "aliases": ["graphql", "GraphQL"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "接口设计",
+        "description": "查询语言和运行时"
+      },
+      {
+        "name": "gRPC",
+        "aliases": ["grpc", "gRPC", "GRPC"],
+        "level": "进阶",
+        "hot_score": 65,
+        "category": "RPC",
+        "description": "高性能RPC框架"
+      },
+      {
+        "name": "WebSocket",
+        "aliases": ["websocket", "WebSocket"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "实时通信",
+        "description": "双向通信协议"
+      },
+      {
+        "name": "HTTP",
+        "aliases": ["http", "HTTP", "https", "HTTPS"],
+        "level": "基础",
+        "hot_score": 95,
+        "category": "网络协议",
+        "description": "超文本传输协议"
+      },
+      {
+        "name": "TCP/IP",
+        "aliases": ["tcp", "ip", "TCP/IP", "TCP", "IP"],
+        "level": "基础",
+        "hot_score": 80,
+        "category": "网络协议",
+        "description": "传输控制协议/互联网协议"
+      },
+      {
+        "name": "敏捷开发",
+        "aliases": ["agile", "敏捷", "敏捷开发", "Agile"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "开发方法",
+        "description": "敏捷软件开发方法"
+      },
+      {
+        "name": "Scrum",
+        "aliases": ["scrum", "Scrum"],
+        "level": "常用",
+        "hot_score": 50,
+        "category": "开发方法",
+        "description": "敏捷开发框架"
+      },
+      {
+        "name": "DevOps",
+        "aliases": ["devops", "DevOps"],
+        "level": "进阶",
+        "hot_score": 75,
+        "category": "开发方法",
+        "description": "开发运维一体化"
+      },
+      {
+        "name": "性能优化",
+        "aliases": ["性能优化", "优化", "performance optimization"],
+        "level": "进阶",
+        "hot_score": 82,
+        "category": "优化",
+        "description": "系统性能优化技术"
+      },
+      {
+        "name": "系统设计",
+        "aliases": ["系统设计", "架构设计", "system design"],
+        "level": "进阶",
+        "hot_score": 85,
+        "category": "架构",
+        "description": "大规模系统架构设计"
+      },
+      {
+        "name": "单元测试",
+        "aliases": ["单元测试", "unit test", "unittest", "测试"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "测试",
+        "description": "代码单元测试"
+      },
+      {
+        "name": "集成测试",
+        "aliases": ["集成测试", "integration test"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "测试",
+        "description": "系统集成测试"
+      },
+      {
+        "name": "自动化测试",
+        "aliases": ["自动化测试", "test automation", "自动化"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "测试",
+        "description": "自动化测试技术"
+      },
+      {
+        "name": "团队协作",
+        "aliases": ["团队协作", "沟通", "teamwork", "协作"],
+        "level": "基础",
+        "hot_score": 80,
+        "category": "软技能",
+        "description": "团队协作能力"
+      },
+      {
+        "name": "代码审查",
+        "aliases": ["code review", "代码审查", "代码评审", "CR"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "软件工程",
+        "description": "代码质量审查"
+      },
+      {
+        "name": "技术文档",
+        "aliases": ["技术文档", "documentation", "文档编写"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "软技能",
+        "description": "技术文档编写能力"
+      },
+      {
+        "name": "问题排查",
+        "aliases": ["问题排查", "troubleshooting", "debug", "调试"],
+        "level": "常用",
+        "hot_score": 75,
+        "category": "技能",
+        "description": "问题定位和解决能力"
+      },
+      {
+        "name": "负载均衡",
+        "aliases": ["负载均衡", "load balancing", "LB"],
+        "level": "进阶",
+        "hot_score": 70,
+        "category": "架构",
+        "description": "流量分发技术"
+      },
+      {
+        "name": "缓存策略",
+        "aliases": ["缓存", "caching", "缓存策略", "cache"],
+        "level": "常用",
+        "hot_score": 78,
+        "category": "性能优化",
+        "description": "缓存设计和应用"
+      },
+      {
+        "name": "消息队列",
+        "aliases": ["消息队列", "message queue", "MQ"],
+        "level": "常用",
+        "hot_score": 82,
+        "category": "中间件",
+        "description": "异步消息处理"
+      },
+      {
+        "name": "限流降级",
+        "aliases": ["限流", "降级", "熔断", "rate limiting"],
+        "level": "进阶",
+        "hot_score": 72,
+        "category": "稳定性",
+        "description": "系统保护机制"
+      }
+    ],
+    "9_移动开发": [
+      {
+        "name": "Android",
+        "aliases": ["android", "Android", "安卓"],
+        "level": "核心",
+        "hot_score": 75,
+        "category": "移动开发",
+        "description": "Android应用开发"
+      },
+      {
+        "name": "iOS",
+        "aliases": ["ios", "iOS", "iPhone"],
+        "level": "核心",
+        "hot_score": 72,
+        "category": "移动开发",
+        "description": "iOS应用开发"
+      },
+      {
+        "name": "Flutter",
+        "aliases": ["flutter", "Flutter"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "跨平台",
+        "description": "跨平台移动开发框架"
+      },
+      {
+        "name": "React Native",
+        "aliases": ["react native", "React Native", "RN"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "跨平台",
+        "description": "React移动开发框架"
+      },
+      {
+        "name": "Jetpack",
+        "aliases": ["jetpack", "Jetpack", "Android Jetpack"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "Android",
+        "description": "Android开发组件库"
+      },
+      {
+        "name": "SwiftUI",
+        "aliases": ["swiftui", "SwiftUI"],
+        "level": "常用",
+        "hot_score": 55,
+        "category": "iOS",
+        "description": "Swift UI框架"
+      }
+    ],
+    "10_数据处理": [
+      {
+        "name": "ETL",
+        "aliases": ["etl", "ETL"],
+        "level": "常用",
+        "hot_score": 60,
+        "category": "数据工程",
+        "description": "数据提取转换加载"
+      },
+      {
+        "name": "数据仓库",
+        "aliases": ["数据仓库", "data warehouse", "DW"],
+        "level": "进阶",
+        "hot_score": 65,
+        "category": "数据工程",
+        "description": "数据仓库建设"
+      },
+      {
+        "name": "数据湖",
+        "aliases": ["数据湖", "data lake"],
+        "level": "进阶",
+        "hot_score": 55,
+        "category": "数据工程",
+        "description": "大数据存储架构"
+      },
+      {
+        "name": "数据挖掘",
+        "aliases": ["数据挖掘", "data mining"],
+        "level": "专业",
+        "hot_score": 60,
+        "category": "数据分析",
+        "description": "数据分析挖掘技术"
+      },
+      {
+        "name": "数据可视化",
+        "aliases": ["数据可视化", "data visualization", "可视化"],
+        "level": "常用",
+        "hot_score": 70,
+        "category": "数据展示",
+        "description": "数据图表展示"
+      },
+      {
+        "name": "BI",
+        "aliases": ["bi", "BI", "商业智能", "business intelligence"],
+        "level": "常用",
+        "hot_score": 65,
+        "category": "商业智能",
+        "description": "商业智能分析"
+      },
+      {
+        "name": "数据建模",
+        "aliases": ["数据建模", "data modeling"],
+        "level": "进阶",
+        "hot_score": 62,
+        "category": "数据工程",
+        "description": "数据模型设计"
+      }
+    ],
+    "11_区块链": [
+      {
+        "name": "区块链",
+        "aliases": ["区块链", "blockchain", "Blockchain"],
+        "level": "专业",
+        "hot_score": 45,
+        "category": "区块链",
+        "description": "分布式账本技术"
+      },
+      {
+        "name": "以太坊",
+        "aliases": ["ethereum", "以太坊", "Ethereum", "ETH"],
+        "level": "专业",
+        "hot_score": 40,
+        "category": "区块链",
+        "description": "智能合约平台"
+      },
+      {
+        "name": "Solidity",
+        "aliases": ["solidity", "Solidity"],
+        "level": "专业",
+        "hot_score": 35,
+        "category": "区块链",
+        "description": "智能合约编程语言"
+      },
+      {
+        "name": "Web3",
+        "aliases": ["web3", "Web3", "Web3.0"],
+        "level": "专业",
+        "hot_score": 42,
+        "category": "区块链",
+        "description": "去中心化网络"
+      }
+    ]
+  },
+  "技能关系": {
+    "强关联": [
+      {"source": "Python", "target": "Django", "strength": 0.95},
+      {"source": "Python", "target": "Flask", "strength": 0.92},
+      {"source": "Python", "target": "FastAPI", "strength": 0.88},
+      {"source": "Java", "target": "Spring Boot", "strength": 0.98},
+      {"source": "Java", "target": "MyBatis", "strength": 0.90},
+      {"source": "JavaScript", "target": "Vue", "strength": 0.85},
+      {"source": "JavaScript", "target": "React", "strength": 0.87},
+      {"source": "TypeScript", "target": "Vue", "strength": 0.80},
+      {"source": "TypeScript", "target": "React", "strength": 0.82},
+      {"source": "Go", "target": "Gin", "strength": 0.90},
+      {"source": "Docker", "target": "Kubernetes", "strength": 0.92},
+      {"source": "Python", "target": "机器学习", "strength": 0.88},
+      {"source": "Python", "target": "深度学习", "strength": 0.85},
+      {"source": "深度学习", "target": "PyTorch", "strength": 0.90},
+      {"source": "深度学习", "target": "TensorFlow", "strength": 0.88},
+      {"source": "MySQL", "target": "Redis", "strength": 0.85},
+      {"source": "Linux", "target": "Docker", "strength": 0.82},
+      {"source": "Linux", "target": "Shell", "strength": 0.90},
+      {"source": "Vue", "target": "Pinia", "strength": 0.88},
+      {"source": "React", "target": "Redux", "strength": 0.85},
+      {"source": "React", "target": "Next.js", "strength": 0.82},
+      {"source": "Vue", "target": "Nuxt.js", "strength": 0.80},
+      {"source": "Kubernetes", "target": "Helm", "strength": 0.85},
+      {"source": "Docker", "target": "Docker Compose", "strength": 0.92},
+      {"source": "Jenkins", "target": "Git", "strength": 0.88},
+      {"source": "Spring Boot", "target": "Spring Cloud", "strength": 0.90},
+      {"source": "Java", "target": "Maven", "strength": 0.85},
+      {"source": "Java", "target": "Dubbo", "strength": 0.78},
+      {"source": "Python", "target": "Pandas", "strength": 0.85},
+      {"source": "Python", "target": "NumPy", "strength": 0.82},
+      {"source": "机器学习", "target": "scikit-learn", "strength": 0.88},
+      {"source": "LLM", "target": "LangChain", "strength": 0.90},
+      {"source": "LLM", "target": "Prompt Engineering", "strength": 0.92},
+      {"source": "React", "target": "Jest", "strength": 0.82},
+      {"source": "Vue", "target": "Vitest", "strength": 0.78},
+      {"source": "Java", "target": "JUnit", "strength": 0.90},
+      {"source": "Python", "target": "pytest", "strength": 0.88},
+      {"source": "Elasticsearch", "target": "Kibana", "strength": 0.90},
+      {"source": "Prometheus", "target": "Grafana", "strength": 0.92},
+      {"source": "Kafka", "target": "Spark", "strength": 0.75},
+      {"source": "JWT", "target": "OAuth", "strength": 0.80},
+      {"source": "Webpack", "target": "Babel", "strength": 0.85},
+      {"source": "TypeScript", "target": "ESLint", "strength": 0.78}
+    ],
+    "常见组合": [
+      {"skills": ["Python", "Django", "MySQL", "Redis"], "scenario": "Python后端开发"},
+      {"skills": ["Java", "Spring Boot", "MyBatis", "MySQL"], "scenario": "Java后端开发"},
+      {"skills": ["Vue", "JavaScript", "Element UI", "Webpack"], "scenario": "Vue前端开发"},
+      {"skills": ["React", "JavaScript", "Ant Design", "Webpack"], "scenario": "React前端开发"},
+      {"skills": ["Python", "机器学习", "深度学习", "PyTorch"], "scenario": "AI算法工程师"},
+      {"skills": ["Hadoop", "Spark", "Hive", "Kafka"], "scenario": "大数据开发"},
+      {"skills": ["Docker", "Kubernetes", "Jenkins", "Git"], "scenario": "DevOps工程师"},
+      {"skills": ["Go", "微服务", "Docker", "Kubernetes"], "scenario": "云原生开发"},
+      {"skills": ["TypeScript", "React", "Next.js", "Tailwind CSS"], "scenario": "现代前端开发"},
+      {"skills": ["Python", "FastAPI", "PostgreSQL", "Docker"], "scenario": "Python微服务"},
+      {"skills": ["Go", "Gin", "gRPC", "Etcd"], "scenario": "Go微服务开发"},
+      {"skills": ["React Native", "TypeScript", "Redux", "Jest"], "scenario": "React Native移动开发"},
+      {"skills": ["Flutter", "Dart", "Firebase"], "scenario": "Flutter跨平台开发"},
+      {"skills": ["LLM", "LangChain", "Python", "RAG"], "scenario": "LLM应用开发"},
+      {"skills": ["Spark", "Airflow", "dbt", "Snowflake"], "scenario": "现代数据工程"},
+      {"skills": ["Kubernetes", "ArgoCD", "Prometheus", "Grafana"], "scenario": "云原生运维"},
+      {"skills": ["Vue3", "Vite", "Pinia", "TypeScript"], "scenario": "Vue3现代化开发"},
+      {"skills": ["Java", "Spring Cloud", "Dubbo", "Nacos"], "scenario": "微服务架构"},
+      {"skills": ["Cypress", "Jest", "Testing Library", "Playwright"], "scenario": "前端测试工程师"},
+      {"skills": ["JWT", "OAuth", "Redis", "Spring Security"], "scenario": "安全认证系统"}
+    ]
+  },
+  "行业热度": {
+    "互联网": ["Python", "Java", "Go", "Vue", "React", "MySQL", "Redis", "Docker", "Kubernetes"],
+    "人工智能": ["Python", "机器学习", "深度学习", "PyTorch", "TensorFlow", "NLP", "计算机视觉", "LLM", "LangChain", "RAG"],
+    "大数据": ["Hadoop", "Spark", "Flink", "Kafka", "Hive", "Python", "Scala", "Airflow", "dbt"],
+    "金融科技": ["Java", "Spring Boot", "微服务", "高并发", "分布式", "Oracle", "Redis", "加密算法", "区块链"],
+    "游戏开发": ["C++", "Unity", "Unreal Engine", "Lua"],
+    "移动开发": ["Android", "iOS", "Flutter", "React Native", "Kotlin", "Swift", "SwiftUI", "Jetpack"],
+    "云计算": ["Docker", "Kubernetes", "微服务", "AWS", "阿里云", "DevOps", "Terraform", "ArgoCD"],
+    "前端工程化": ["TypeScript", "React", "Vue", "Vite", "Webpack", "ESLint", "Prettier", "Storybook"],
+    "DevOps": ["Kubernetes", "Docker", "Jenkins", "GitLab CI", "Prometheus", "Grafana", "Helm", "ArgoCD"],
+    "数据工程": ["Python", "Spark", "Airflow", "dbt", "Snowflake", "Kafka", "Elasticsearch"],
+    "网络安全": ["JWT", "OAuth", "HTTPS", "加密算法", "WAF", "渗透测试", "零信任"],
+    "测试开发": ["Selenium", "Cypress", "Playwright", "Jest", "JUnit", "pytest", "JMeter"]
+  },
+  "学习路径": {
+    "后端开发": [
+      {"阶段": "基础", "技能": ["编程语言(Python/Java/Go)", "数据结构", "算法", "HTTP", "SQL"]},
+      {"阶段": "进阶", "技能": ["Web框架", "MySQL", "Redis", "Git", "Linux"]},
+      {"阶段": "高级", "技能": ["微服务", "Docker", "高并发", "分布式", "消息队列"]}
+    ],
+    "前端开发": [
+      {"阶段": "基础", "技能": ["HTML", "CSS", "JavaScript"]},
+      {"阶段": "进阶", "技能": ["Vue/React", "TypeScript", "Webpack/Vite", "UI组件库"]},
+      {"阶段": "高级", "技能": ["性能优化", "微前端", "工程化", "跨端开发"]}
+    ],
+    "算法工程师": [
+      {"阶段": "基础", "技能": ["Python", "数据结构", "算法", "数学基础"]},
+      {"阶段": "进阶", "技能": ["机器学习", "深度学习", "Pandas", "NumPy"]},
+      {"阶段": "高级", "技能": ["PyTorch/TensorFlow", "NLP/CV", "模型优化", "工程化"]}
+    ],
+    "LLM应用开发": [
+      {"阶段": "基础", "技能": ["Python", "API设计", "数据库", "Prompt Engineering"]},
+      {"阶段": "进阶", "技能": ["LangChain", "RAG", "向量数据库", "Fine-tuning"]},
+      {"阶段": "高级", "技能": ["模型优化", "Agent开发", "多模态", "生产部署"]}
+    ],
+    "DevOps工程师": [
+      {"阶段": "基础", "技能": ["Linux", "Shell", "Git", "Docker"]},
+      {"阶段": "进阶", "技能": ["Kubernetes", "Jenkins", "Prometheus", "Nginx"]},
+      {"阶段": "高级", "技能": ["ArgoCD", "Terraform", "Service Mesh", "可观测性"]}
+    ],
+    "全栈开发": [
+      {"阶段": "基础", "技能": ["HTML", "CSS", "JavaScript", "Python/Java"]},
+      {"阶段": "进阶", "技能": ["React/Vue", "Node.js/Spring Boot", "MySQL", "Redis"]},
+      {"阶段": "高级", "技能": ["微服务", "云原生", "性能优化", "架构设计"]}
+    ],
+    "数据工程师": [
+      {"阶段": "基础", "技能": ["SQL", "Python", "数据仓库", "ETL"]},
+      {"阶段": "进阶", "技能": ["Spark", "Airflow", "Kafka", "数据建模"]},
+      {"阶段": "高级", "技能": ["dbt", "实时数据", "数据湖", "数据治理"]}
+    ],
+    "测试工程师": [
+      {"阶段": "基础", "技能": ["测试理论", "SQL", "Linux", "Python/Java"]},
+      {"阶段": "进阶", "技能": ["Selenium", "JMeter", "接口测试", "自动化框架"]},
+      {"阶段": "高级", "技能": ["性能测试", "安全测试", "CI/CD", "测试平台开发"]}
+    ],
+    "安全工程师": [
+      {"阶段": "基础", "技能": ["网络协议", "Linux", "Python", "加密算法"]},
+      {"阶段": "进阶", "技能": ["Web安全", "渗透测试", "防火墙", "安全审计"]},
+      {"阶段": "高级", "技能": ["零信任", "威胁情报", "应急响应", "安全架构"]}
+    ]
+  },
+  "统计信息": {
+    "总技能数": 352,
+    "核心技能数": 37,
+    "常用技能数": 217,
+    "进阶技能数": 55,
+    "专业技能数": 30,
+    "基础技能数": 13,
+    "分类数": 13,
+    "平均热度": 62
+  },
+  "更新日志": {
+    "版本": "2.5",
+    "更新日期": "2024-12-11",
+    "更新内容": [
+      "v2.5 (2024-12-11):",
+      "  - 新增140+热门技能（总数352个）",
+      "  - 新增测试与质量(12)、安全(13)两个专业分类",
+      "  - 大幅扩充前端生态：Svelte、Solid.js、Remix、Astro等新框架",
+      "  - 新增状态管理：Pinia、Redux、Zustand、Recoil等",
+      "  - 完善AI/LLM技能：LangChain、RAG、Prompt Engineering、Fine-tuning",
+      "  - 扩展向量数据库：Pinecone、Milvus、Weaviate",
+      "  - 新增云原生工具：Helm、ArgoCD、Jaeger、SkyWalking",
+      "  - 完善测试工具：Jest、Cypress、Playwright、JMeter、Selenium",
+      "  - 新增安全技能：JWT、OAuth、零信任、WAF、渗透测试",
+      "  - 新增开发工具：Figma、Notion、Slack、ESLint、Prettier",
+      "  - 扩展后端框架：Dubbo、Netty、Quarkus等",
+      "  - 新增数据工程：Airflow、dbt、Databricks、Presto",
+      "  - 新增43对强关联关系（总数61对）",
+      "  - 新增12个常见技能组合场景（总数20个）",
+      "  - 扩展行业热度至12个行业领域",
+      "  - 新增8条完整学习路径",
+      "",
+      "v2.0 (2024-12-11):",
+      "  - 初始版本，212个技能",
+      "  - 11个基础分类",
+      "  - 完善技能别名系统",
+      "  - 添加热度分数字段",
+      "  - 建立技能关系网络"
+    ]
+  },
+  "使用说明": {
+    "用途": "知识图谱构建的核心骨架，技能提取的权威词典",
+    "扩展": "可根据实际需求添加更多技能和别名",
+    "别名": "aliases字段用于匹配不同写法、大小写、全称简称",
+    "层级": "level字段标识技能重要程度(基础/常用/核心/进阶/专业)",
+    "关系": "parent字段标识技能从属关系",
+    "热度": "hot_score字段表示技能市场热度(0-100)",
+    "匹配": "技能提取时优先匹配name，再匹配aliases",
+    "更新": "定期根据招聘市场趋势更新技能库"
+  }
+}

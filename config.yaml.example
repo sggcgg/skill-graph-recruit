@@ -1,0 +1,98 @@
+# ============================================
+# 项目配置文件模板
+# 复制本文件为 config.yaml，填入你的实际配置
+# cp config.yaml.example config.yaml
+# ============================================
+
+# 数据库配置
+database:
+  mysql_url: "mysql+pymysql://root:YOUR_MYSQL_PASSWORD@localhost:3306/skill_graph_recruit?charset=utf8mb4"
+
+# Neo4j配置
+neo4j:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "YOUR_NEO4J_PASSWORD"
+  database: "neo4j"
+
+# Qwen2.5本地模型配置（vLLM）
+qwen3:
+  model_name: "Qwen/Qwen2.5-1.5B-Instruct"
+  gpu_memory_utilization: 0.85
+  max_model_len: 4096
+  dtype: "half"
+  tensor_parallel_size: 1
+  temperature: 0.1
+  max_tokens: 512
+  batch_size: 64
+
+# Embedding配置
+embedding:
+  model_name: "moka-ai/m3e-base"
+  model_path: "scripts/models/m3e-base"
+  device: "cpu"
+  batch_size: 32
+
+# 向量数据库配置
+vector_db:
+  type: "chromadb"
+  persist_directory: "data/vector_db"
+  collection_name: "job_embeddings"
+
+# RAG配置
+rag:
+  top_k: 10
+  similarity_threshold: 0.7
+  rerank: false
+
+# LLM API配置（通义千问，用于Agent对话）
+# 申请地址: https://dashscope.aliyuncs.com/
+llm:
+  base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  api_key: "YOUR_DASHSCOPE_API_KEY"
+  model: "qwen3.5-plus"
+  temperature: 0.3
+  max_tokens: 1000
+
+# Agent配置
+agent:
+  max_iterations: 5
+  verbose: true
+  memory_type: "buffer"
+
+# 数据路径
+data:
+  skill_dict: "data/skill_dict/skill_taxonomy.json"
+  raw_data: "data/raw/"
+  cleaned_data: "data/cleaned/"
+  enhanced_data: "data/enhanced/"
+  processed_data: "data/processed/"
+  sample_data: "data/sample/"
+
+# 爬虫配置
+crawler:
+  delay: 2
+  max_retries: 3
+
+# API配置
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: true
+  title: "智能招聘分析API v3.0"
+  description: "基于Qwen3本地部署+知识蒸馏的智能招聘分析系统"
+  version: "3.0.0"
+
+# 性能配置
+performance:
+  batch_size: 100
+  vector_batch_size: 50
+  max_workers: 4
+  enable_cache: true
+  cache_ttl: 3600
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

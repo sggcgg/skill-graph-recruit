@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "计算机相关专业",
+    "aliases": [
+      "计算机相关专业",
+      "计算机相关专业"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 7739 次的技能"
+  },
+  {
+    "name": "不接受居家办公",
+    "aliases": [
+      "不接受居家办公",
+      "不接受居家办公"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 6444 次的技能"
+  },
+  {
+    "name": "前端开发经验",
+    "aliases": [
+      "前端开发经验",
+      "前端开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 4632 次的技能"
+  },
+  {
+    "name": "计算机/软件工程相关专业",
+    "aliases": [
+      "计算机/软件工程相关专业",
+      "计算机/软件工程相关专业"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 3906 次的技能"
+  },
+  {
+    "name": "架构设计经验",
+    "aliases": [
+      "架构设计经验",
+      "架构设计经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 3895 次的技能"
+  },
+  {
+    "name": "分布式经验",
+    "aliases": [
+      "分布式经验",
+      "分布式经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 3716 次的技能"
+  },
+  {
+    "name": "微服务经验",
+    "aliases": [
+      "微服务经验",
+      "微服务经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 3642 次的技能"
+  },
+  {
+    "name": "C/C++",
+    "aliases": [
+      "C/C++",
+      "c/c++"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 2865 次的技能"
+  },
+  {
+    "name": "分布式技术",
+    "aliases": [
+      "分布式技术",
+      "分布式技术"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 2582 次的技能"
+  },
+  {
+    "name": "功能测试",
+    "aliases": [
+      "功能测试",
+      "功能测试"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 2231 次的技能"
+  },
+  {
+    "name": "Node.js",
+    "aliases": [
+      "Node.js",
+      "node.js"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 2143 次的技能"
+  },
+  {
+    "name": "要求数据开发经验",
+    "aliases": [
+      "要求数据开发经验",
+      "要求数据开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 2116 次的技能"
+  },
+  {
+    "name": "性能测试",
+    "aliases": [
+      "性能测试",
+      "性能测试"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 2098 次的技能"
+  },
+  {
+    "name": "后端开发",
+    "aliases": [
+      "后端开发",
+      "后端开发"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1980 次的技能"
+  },
+  {
+    "name": "大模型算法",
+    "aliases": [
+      "大模型算法",
+      "大模型算法"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1957 次的技能"
+  },
+  {
+    "name": "测试工作经验",
+    "aliases": [
+      "测试工作经验",
+      "测试工作经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1862 次的技能"
+  },
+  {
+    "name": "算法工程化经验",
+    "aliases": [
+      "算法工程化经验",
+      "算法工程化经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1835 次的技能"
+  },
+  {
+    "name": "团队管理经验",
+    "aliases": [
+      "团队管理经验",
+      "团队管理经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1709 次的技能"
+  },
+  {
+    "name": "非外包类",
+    "aliases": [
+      "非外包类",
+      "非外包类"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1659 次的技能"
+  },
+  {
+    "name": "Golang服务端开发经验",
+    "aliases": [
+      "Golang服务端开发经验",
+      "golang服务端开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1641 次的技能"
+  },
+  {
+    "name": "自动化测试经验",
+    "aliases": [
+      "自动化测试经验",
+      "自动化测试经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1559 次的技能"
+  },
+  {
+    "name": "Linux开发/部署经验",
+    "aliases": [
+      "Linux开发/部署经验",
+      "linux开发/部署经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1497 次的技能"
+  },
+  {
+    "name": "数据平台开发经验",
+    "aliases": [
+      "数据平台开发经验",
+      "数据平台开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1468 次的技能"
+  },
+  {
+    "name": "大数据经验",
+    "aliases": [
+      "大数据经验",
+      "大数据经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1313 次的技能"
+  },
+  {
+    "name": "全栈项目经验",
+    "aliases": [
+      "全栈项目经验",
+      "全栈项目经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1297 次的技能"
+  },
+  {
+    "name": "其他",
+    "aliases": [
+      "其他",
+      "其他"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1276 次的技能"
+  },
+  {
+    "name": "Android客户端产品研发",
+    "aliases": [
+      "Android客户端产品研发",
+      "android客户端产品研发"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1275 次的技能"
+  },
+  {
+    "name": "数据仓库开发经验",
+    "aliases": [
+      "数据仓库开发经验",
+      "数据仓库开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1209 次的技能"
+  },
+  {
+    "name": "通信相关专业",
+    "aliases": [
+      "通信相关专业",
+      "通信相关专业"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1170 次的技能"
+  },
+  {
+    "name": "数学/统计相关专业",
+    "aliases": [
+      "数学/统计相关专业",
+      "数学/统计相关专业"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1158 次的技能"
+  },
+  {
+    "name": "图像算法",
+    "aliases": [
+      "图像算法",
+      "图像算法"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1156 次的技能"
+  },
+  {
+    "name": "容器技术",
+    "aliases": [
+      "容器技术",
+      "容器技术"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1140 次的技能"
+  },
+  {
+    "name": "系统运维",
+    "aliases": [
+      "系统运维",
+      "系统运维"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1140 次的技能"
+  },
+  {
+    "name": "运维开发经验",
+    "aliases": [
+      "运维开发经验",
+      "运维开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1086 次的技能"
+  },
+  {
+    "name": "Android开发经验",
+    "aliases": [
+      "Android开发经验",
+      "android开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1081 次的技能"
+  },
+  {
+    "name": "前端开发",
+    "aliases": [
+      "前端开发",
+      "前端开发"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1050 次的技能"
+  },
+  {
+    "name": "JVM",
+    "aliases": [
+      "JVM",
+      "jvm"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 1037 次的技能"
+  },
+  {
+    "name": "云计算经验",
+    "aliases": [
+      "云计算经验",
+      "云计算经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 937 次的技能"
+  },
+  {
+    "name": "网络协议",
+    "aliases": [
+      "网络协议",
+      "网络协议"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 930 次的技能"
+  },
+  {
+    "name": "自然语言处理算法",
+    "aliases": [
+      "自然语言处理算法",
+      "自然语言处理算法"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 896 次的技能"
+  },
+  {
+    "name": "MySQL/Redis/MongoDB",
+    "aliases": [
+      "MySQL/Redis/MongoDB",
+      "mysql/redis/mongodb"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 881 次的技能"
+  },
+  {
+    "name": "运维经验",
+    "aliases": [
+      "运维经验",
+      "运维经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 874 次的技能"
+  },
+  {
+    "name": "后端开发经验",
+    "aliases": [
+      "后端开发经验",
+      "后端开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 853 次的技能"
+  },
+  {
+    "name": "ETL开发经验",
+    "aliases": [
+      "ETL开发经验",
+      "etl开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 850 次的技能"
+  },
+  {
+    "name": "AI",
+    "aliases": [
+      "AI",
+      "ai"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 849 次的技能"
+  },
+  {
+    "name": "多模态算法",
+    "aliases": [
+      "多模态算法",
+      "多模态算法"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 805 次的技能"
+  },
+  {
+    "name": "架构师",
+    "aliases": [
+      "架构师",
+      "架构师"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 795 次的技能"
+  },
+  {
+    "name": "Python/Shell",
+    "aliases": [
+      "Python/Shell",
+      "python/shell"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 785 次的技能"
+  },
+  {
+    "name": "物联网经验",
+    "aliases": [
+      "物联网经验",
+      "物联网经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 784 次的技能"
+  },
+  {
+    "name": "ERP开发经验",
+    "aliases": [
+      "ERP开发经验",
+      "erp开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 774 次的技能"
+  },
+  {
+    "name": "实时数仓开发经验",
+    "aliases": [
+      "实时数仓开发经验",
+      "实时数仓开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 757 次的技能"
+  },
+  {
+    "name": "模型加速/性能优化",
+    "aliases": [
+      "模型加速/性能优化",
+      "模型加速/性能优化"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 751 次的技能"
+  },
+  {
+    "name": "服务器配置",
+    "aliases": [
+      "服务器配置",
+      "服务器配置"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 732 次的技能"
+  },
+  {
+    "name": "中大型项目开发经验",
+    "aliases": [
+      "中大型项目开发经验",
+      "中大型项目开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 729 次的技能"
+  },
+  {
+    "name": "数据分析/挖掘经验",
+    "aliases": [
+      "数据分析/挖掘经验",
+      "数据分析/挖掘经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 722 次的技能"
+  },
+  {
+    "name": "数据治理经验",
+    "aliases": [
+      "数据治理经验",
+      "数据治理经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 670 次的技能"
+  },
+  {
+    "name": "机器学习经验",
+    "aliases": [
+      "机器学习经验",
+      "机器学习经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 666 次的技能"
+  },
+  {
+    "name": "全栈侧重后端",
+    "aliases": [
+      "全栈侧重后端",
+      "全栈侧重后端"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 665 次的技能"
+  },
+  {
+    "name": "PHP开发经验",
+    "aliases": [
+      "PHP开发经验",
+      "php开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 661 次的技能"
+  },
+  {
+    "name": "发表算法相关优秀论文",
+    "aliases": [
+      "发表算法相关优秀论文",
+      "发表算法相关优秀论文"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 637 次的技能"
+  },
+  {
+    "name": "全栈无侧重",
+    "aliases": [
+      "全栈无侧重",
+      "全栈无侧重"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 637 次的技能"
+  },
+  {
+    "name": "参加算法相关竞赛/获奖",
+    "aliases": [
+      "参加算法相关竞赛/获奖",
+      "参加算法相关竞赛/获奖"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 630 次的技能"
+  },
+  {
+    "name": "系统架构设计经验",
+    "aliases": [
+      "系统架构设计经验",
+      "系统架构设计经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 629 次的技能"
+  },
+  {
+    "name": "MySQL/SQL Server",
+    "aliases": [
+      "MySQL/SQL Server",
+      "mysql/sql server"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 615 次的技能"
+  },
+  {
+    "name": "英语读写能力良好",
+    "aliases": [
+      "英语读写能力良好",
+      "英语读写能力良好"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 611 次的技能"
+  },
+  {
+    "name": "MVC开发",
+    "aliases": [
+      "MVC开发",
+      "mvc开发"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 581 次的技能"
+  },
+  {
+    "name": "掌握软件测试理论和流程",
+    "aliases": [
+      "掌握软件测试理论和流程",
+      "掌握软件测试理论和流程"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 557 次的技能"
+  },
+  {
+    "name": "运维开发/DevOps",
+    "aliases": [
+      "运维开发/DevOps",
+      "运维开发/devops"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 557 次的技能"
+  },
+  {
+    "name": "推荐算法",
+    "aliases": [
+      "推荐算法",
+      "推荐算法"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 556 次的技能"
+  },
+  {
+    "name": "爬虫经验",
+    "aliases": [
+      "爬虫经验",
+      "爬虫经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 550 次的技能"
+  },
+  {
+    "name": "数据建模经验",
+    "aliases": [
+      "数据建模经验",
+      "数据建模经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 542 次的技能"
+  },
+  {
+    "name": "QT",
+    "aliases": [
+      "QT",
+      "qt"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 542 次的技能"
+  },
+  {
+    "name": "BI报表开发经验",
+    "aliases": [
+      "BI报表开发经验",
+      "bi报表开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 540 次的技能"
+  },
+  {
+    "name": "优秀开源项目经历",
+    "aliases": [
+      "优秀开源项目经历",
+      "优秀开源项目经历"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 528 次的技能"
+  },
+  {
+    "name": "功能开发",
+    "aliases": [
+      "功能开发",
+      "功能开发"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 526 次的技能"
+  },
+  {
+    "name": "服务端开发经验",
+    "aliases": [
+      "服务端开发经验",
+      "服务端开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 515 次的技能"
+  },
+  {
+    "name": "软件开发经验",
+    "aliases": [
+      "软件开发经验",
+      "软件开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 503 次的技能"
+  },
+  {
+    "name": "网络运维",
+    "aliases": [
+      "网络运维",
+      "网络运维"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 499 次的技能"
+  },
+  {
+    "name": "架构师经验",
+    "aliases": [
+      "架构师经验",
+      "架构师经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 493 次的技能"
+  },
+  {
+    "name": "压力测试",
+    "aliases": [
+      "压力测试",
+      "压力测试"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 490 次的技能"
+  },
+  {
+    "name": "后端工程师",
+    "aliases": [
+      "后端工程师",
+      "后端工程师"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 485 次的技能"
+  },
+  {
+    "name": "全栈开发",
+    "aliases": [
+      "全栈开发",
+      "全栈开发"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 485 次的技能"
+  },
+  {
+    "name": "Socket技术",
+    "aliases": [
+      "Socket技术",
+      "socket技术"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 476 次的技能"
+  },
+  {
+    "name": "后端",
+    "aliases": [
+      "后端",
+      "后端"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 463 次的技能"
+  },
+  {
+    "name": "技术博客/开源项目有所贡献",
+    "aliases": [
+      "技术博客/开源项目有所贡献",
+      "技术博客/开源项目有所贡献"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 453 次的技能"
+  },
+  {
+    "name": "数据分析",
+    "aliases": [
+      "数据分析",
+      "数据分析"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 449 次的技能"
+  },
+  {
+    "name": "软件工程师",
+    "aliases": [
+      "软件工程师",
+      "软件工程师"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 442 次的技能"
+  },
+  {
+    "name": "ERP",
+    "aliases": [
+      "ERP",
+      "erp"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 434 次的技能"
+  },
+  {
+    "name": "移动端",
+    "aliases": [
+      "移动端",
+      "移动端"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 431 次的技能"
+  },
+  {
+    "name": "Spring/Spring Boot",
+    "aliases": [
+      "Spring/Spring Boot",
+      "spring/spring boot"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 410 次的技能"
+  },
+  {
+    "name": "MySQL/Oracle",
+    "aliases": [
+      "MySQL/Oracle",
+      "mysql/oracle"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 409 次的技能"
+  },
+  {
+    "name": "分布式训练",
+    "aliases": [
+      "分布式训练",
+      "分布式训练"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 408 次的技能"
+  },
+  {
+    "name": "全栈侧重前端",
+    "aliases": [
+      "全栈侧重前端",
+      "全栈侧重前端"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 408 次的技能"
+  },
+  {
+    "name": ".NET",
+    "aliases": [
+      ".NET",
+      ".net"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 408 次的技能"
+  },
+  {
+    "name": "数据库",
+    "aliases": [
+      "数据库",
+      "数据库"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 407 次的技能"
+  },
+  {
+    "name": "Java开发经验",
+    "aliases": [
+      "Java开发经验",
+      "java开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 406 次的技能"
+  },
+  {
+    "name": "接受居家办公",
+    "aliases": [
+      "接受居家办公",
+      "接受居家办公"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 404 次的技能"
+  },
+  {
+    "name": "银行",
+    "aliases": [
+      "银行",
+      "银行"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 400 次的技能"
+  },
+  {
+    "name": "iOS/Android测试经验",
+    "aliases": [
+      "iOS/Android测试经验",
+      "ios/android测试经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 400 次的技能"
+  },
+  {
+    "name": "大数据引擎开发经验",
+    "aliases": [
+      "大数据引擎开发经验",
+      "大数据引擎开发经验"
+    ],
+    "level": "常用",
+    "hot_score": 100,
+    "description": "数据中出现 399 次的技能"
+  }
+]
