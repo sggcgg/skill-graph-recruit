@@ -1,0 +1,38 @@
+// 🎨 智能招聘分析系统 - 样式变量
+// 设计理念: 科技感 + 简洁专业 + 数据可视化
+
+// 主色调（深色模式）
+$bg-primary: #0a0e27;           // 深蓝黑
+$bg-secondary: #151932;         // 深蓝灰
+$bg-card: rgba(255, 255, 255, 0.05);  // 半透明白
+$border-color: rgba(255, 255, 255, 0.1); // 边框颜色
+
+// 强调色
+$primary-color: #3b82f6;        // 科技蓝 - AI相关功能
+$secondary-color: #8b5cf6;      // 紫色 - 技能图谱
+$success-color: #10b981;        // 翠绿 - 匹配成功
+$warning-color: #f59e0b;        // 橙色 - 提示信息
+
+// 文字颜色
+$text-primary: #ffffff;         // 纯白
+$text-secondary: #cbd5e1;       // 浅灰
+$text-regular: #94a3b8;         // 中灰
+$text-placeholder: #64748b;     // 深灰
+
+// 玻璃拟态效果
+$glass-bg: rgba(255, 255, 255, 0.05);
+$glass-border: rgba(255, 255, 255, 0.1);
+$glass-backdrop: blur(10px);
+
+// 动画过渡
+$transition-base: all 0.25s ease;
+$transition-hover: transform 0.25s ease;
+
+// 圆角
+$radius-sm: 6px;
+$radius-md: 10px;
+$radius-lg: 16px;
+
+// 阴影
+$shadow-card: 0 4px 20px rgba(0, 0, 0, 0.3);
+$shadow-elevated: 0 8px 32px rgba(0, 0, 0, 0.4);

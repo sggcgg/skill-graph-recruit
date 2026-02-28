@@ -1,0 +1,203 @@
+// 全局样式
+@import './variables.scss';
+
+// 重置默认样式
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background-color: $bg-primary;
+  color: $text-primary;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+// 玻璃拟态卡片样式
+.glass-card {
+  background: $glass-bg;
+  backdrop-filter: $glass-backdrop;
+  border: 1px solid $glass-border;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+  transition: $transition-base;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+
+  &.glass-card-transparent {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+}
+
+// Element Plus 全局覆盖样式（深色主题）
+:deep(.el-input__wrapper),
+.el-input__wrapper {
+  background: $bg-secondary !important;
+  border-color: $border-color !important;
+  box-shadow: none !important;
+
+  &.is-focus {
+    border-color: $primary-color !important;
+    box-shadow: 0 0 0 1px rgba($primary-color, 0.3) !important;
+  }
+}
+
+:deep(.el-input__inner),
+.el-input__inner {
+  color: $text-primary !important;
+  background: transparent !important;
+}
+
+:deep(.el-select-dropdown),
+.el-select-dropdown {
+  background: $bg-secondary !important;
+  border-color: $border-color !important;
+}
+
+:deep(.el-select-dropdown__item),
+.el-select-dropdown__item {
+  color: $text-regular !important;
+
+  &.selected, &:hover {
+    background: rgba($primary-color, 0.1) !important;
+    color: $primary-color !important;
+  }
+}
+
+:deep(.el-tag) {
+  &.el-tag--primary {
+    background: rgba($primary-color, 0.15);
+    border-color: rgba($primary-color, 0.3);
+    color: $primary-color;
+  }
+}
+
+// 滚动条样式
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+}
+
+// 动画效果
+.fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slide-in {
+  animation: slideIn 0.35s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// 通用页面布局
+.page-container {
+  padding: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+// 通用章节标题
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: $text-primary;
+
+    .el-icon {
+      color: $primary-color;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+// 状态点
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+
+  &.active {
+    background: $success-color;
+    box-shadow: 0 0 6px $success-color;
+  }
+
+  &.inactive {
+    background: #ef4444;
+  }
+
+  &.warning {
+    background: $warning-color;
+  }
+}
+
+// 空状态
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  color: $text-placeholder;
+
+  .empty-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+    opacity: 0.5;
+  }
+
+  .empty-text {
+    font-size: 1rem;
+  }
+}
